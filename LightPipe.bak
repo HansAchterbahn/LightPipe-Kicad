@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L power:+5V #PWR0101
 U 1 1 5E41C8B3
-P 7550 3200
-F 0 "#PWR0101" H 7550 3050 50  0001 C CNN
-F 1 "+5V" H 7565 3373 50  0000 C CNN
-F 2 "" H 7550 3200 50  0001 C CNN
-F 3 "" H 7550 3200 50  0001 C CNN
-	1    7550 3200
+P 7550 3450
+F 0 "#PWR0101" H 7550 3300 50  0001 C CNN
+F 1 "+5V" H 7565 3623 50  0000 C CNN
+F 2 "" H 7550 3450 50  0001 C CNN
+F 3 "" H 7550 3450 50  0001 C CNN
+	1    7550 3450
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -72,12 +72,12 @@ $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5E41D302
-P 7550 3600
-F 0 "#PWR0108" H 7550 3350 50  0001 C CNN
-F 1 "GND" H 7555 3427 50  0000 C CNN
-F 2 "" H 7550 3600 50  0001 C CNN
-F 3 "" H 7550 3600 50  0001 C CNN
-	1    7550 3600
+P 7550 3850
+F 0 "#PWR0108" H 7550 3600 50  0001 C CNN
+F 1 "GND" H 7555 3677 50  0000 C CNN
+F 2 "" H 7550 3850 50  0001 C CNN
+F 3 "" H 7550 3850 50  0001 C CNN
+	1    7550 3850
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4900 1850 2    50   Input ~ 0
@@ -119,58 +119,58 @@ Wire Wire Line
 Wire Wire Line
 	4800 1850 4900 1850
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J1
 U 1 1 5F9461D7
 P 1550 1950
-F 0 "J?" H 1470 1625 50  0000 C CNN
+F 0 "J1" H 1470 1625 50  0000 C CNN
 F 1 "Conn_01x03" H 1470 1716 50  0000 C CNN
-F 2 "" H 1550 1950 50  0001 C CNN
+F 2 "h8-Connectors:Lumberg-KLB-4-Klinkensteckverbinder-3_5" H 1550 1950 50  0001 C CNN
 F 3 "~" H 1550 1950 50  0001 C CNN
 	1    1550 1950
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J9
 U 1 1 5F94634E
 P 9550 1950
-F 0 "J?" H 9470 1625 50  0000 C CNN
+F 0 "J9" H 9470 1625 50  0000 C CNN
 F 1 "Conn_01x03" H 9470 1716 50  0000 C CNN
-F 2 "" H 9550 1950 50  0001 C CNN
+F 2 "h8-Connectors:Lumberg-KLB-4-Klinkensteckverbinder-3_5" H 9550 1950 50  0001 C CNN
 F 3 "~" H 9550 1950 50  0001 C CNN
 	1    9550 1950
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5F94666B
-P 1650 3300
-F 0 "J?" H 1570 2975 50  0000 C CNN
-F 1 "Conn_01x02" H 1570 3066 50  0000 C CNN
-F 2 "" H 1650 3300 50  0001 C CNN
-F 3 "~" H 1650 3300 50  0001 C CNN
-	1    1650 3300
-	-1   0    0    1   
+P 1650 3450
+F 0 "J2" H 1570 3125 50  0000 C CNN
+F 1 "Conn_01x02" H 1570 3216 50  0000 C CNN
+F 2 "h8-Connectors:XT30" H 1650 3450 50  0001 C CNN
+F 3 "~" H 1650 3450 50  0001 C CNN
+	1    1650 3450
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J6
 U 1 1 5F9467BA
-P 7050 3200
-F 0 "J?" H 6970 2975 50  0000 C CNN
-F 1 "Conn_01x01" H 6970 3066 50  0000 C CNN
-F 2 "" H 7050 3200 50  0001 C CNN
-F 3 "~" H 7050 3200 50  0001 C CNN
-	1    7050 3200
+P 7050 3450
+F 0 "J6" H 6970 3225 50  0000 C CNN
+F 1 "Conn_01x01" H 6970 3316 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 7050 3450 50  0001 C CNN
+F 3 "~" H 7050 3450 50  0001 C CNN
+	1    7050 3450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J7
 U 1 1 5F946830
-P 7050 3600
-F 0 "J?" H 6970 3375 50  0000 C CNN
-F 1 "Conn_01x01" H 6970 3466 50  0000 C CNN
-F 2 "" H 7050 3600 50  0001 C CNN
-F 3 "~" H 7050 3600 50  0001 C CNN
-	1    7050 3600
+P 7050 3850
+F 0 "J7" H 6970 3625 50  0000 C CNN
+F 1 "Conn_01x01" H 6970 3716 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 7050 3850 50  0001 C CNN
+F 3 "~" H 7050 3850 50  0001 C CNN
+	1    7050 3850
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -200,10 +200,10 @@ F 3 "" H 3050 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J5
 U 1 1 5F94AE24
 P 6150 1850
-F 0 "J?" H 6230 1842 50  0000 L CNN
+F 0 "J5" H 6230 1842 50  0000 L CNN
 F 1 "Conn_01x04" H 6230 1751 50  0000 L CNN
 F 2 "" H 6150 1850 50  0001 C CNN
 F 3 "~" H 6150 1850 50  0001 C CNN
@@ -211,10 +211,10 @@ F 3 "~" H 6150 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5F94AEC9
 P 4600 1850
-F 0 "J?" H 4680 1842 50  0000 L CNN
+F 0 "J4" H 4680 1842 50  0000 L CNN
 F 1 "Conn_01x04" H 4680 1751 50  0000 L CNN
 F 2 "" H 4600 1850 50  0001 C CNN
 F 3 "~" H 4600 1850 50  0001 C CNN
@@ -222,10 +222,10 @@ F 3 "~" H 4600 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5F94AF29
 P 3350 1850
-F 0 "J?" H 3430 1842 50  0000 L CNN
+F 0 "J3" H 3430 1842 50  0000 L CNN
 F 1 "Conn_01x04" H 3430 1751 50  0000 L CNN
 F 2 "" H 3350 1850 50  0001 C CNN
 F 3 "~" H 3350 1850 50  0001 C CNN
@@ -233,10 +233,10 @@ F 3 "~" H 3350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 5F94BE23
 P 3050 2050
-F 0 "#PWR?" H 3050 1800 50  0001 C CNN
+F 0 "#PWR03" H 3050 1800 50  0001 C CNN
 F 1 "GND" H 3055 1877 50  0000 C CNN
 F 2 "" H 3050 2050 50  0001 C CNN
 F 3 "" H 3050 2050 50  0001 C CNN
@@ -246,10 +246,10 @@ $EndComp
 Wire Wire Line
 	3150 2050 3050 2050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5F94C342
 P 9050 2050
-F 0 "#PWR?" H 9050 1800 50  0001 C CNN
+F 0 "#PWR04" H 9050 1800 50  0001 C CNN
 F 1 "GND" H 9055 1877 50  0000 C CNN
 F 2 "" H 9050 2050 50  0001 C CNN
 F 3 "" H 9050 2050 50  0001 C CNN
@@ -257,25 +257,25 @@ F 3 "" H 9050 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5F94C8AC
-P 2150 3300
-F 0 "#PWR?" H 2150 3050 50  0001 C CNN
-F 1 "GND" H 2155 3127 50  0000 C CNN
-F 2 "" H 2150 3300 50  0001 C CNN
-F 3 "" H 2150 3300 50  0001 C CNN
-	1    2150 3300
+P 2150 3550
+F 0 "#PWR02" H 2150 3300 50  0001 C CNN
+F 1 "GND" H 2155 3377 50  0000 C CNN
+F 2 "" H 2150 3550 50  0001 C CNN
+F 3 "" H 2150 3550 50  0001 C CNN
+	1    2150 3550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR01
 U 1 1 5F94D0D6
-P 2150 3200
-F 0 "#PWR?" H 2150 3050 50  0001 C CNN
-F 1 "+5V" H 2165 3373 50  0000 C CNN
-F 2 "" H 2150 3200 50  0001 C CNN
-F 3 "" H 2150 3200 50  0001 C CNN
-	1    2150 3200
+P 2150 3450
+F 0 "#PWR01" H 2150 3300 50  0001 C CNN
+F 1 "+5V" H 2165 3623 50  0000 C CNN
+F 2 "" H 2150 3450 50  0001 C CNN
+F 3 "" H 2150 3450 50  0001 C CNN
+	1    2150 3450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -291,20 +291,20 @@ Wire Wire Line
 Wire Wire Line
 	9050 2050 9350 2050
 Wire Wire Line
-	2150 3200 1850 3200
+	2150 3450 1850 3450
 Wire Wire Line
-	2150 3300 1850 3300
+	2150 3550 1850 3550
 Wire Wire Line
-	7550 3200 7250 3200
+	7550 3450 7250 3450
 Wire Wire Line
-	7550 3600 7250 3600
+	7550 3850 7250 3850
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5F95B911
 P 7150 1850
-F 0 "J?" H 7070 2067 50  0000 C CNN
+F 0 "J8" H 7070 2067 50  0000 C CNN
 F 1 "Conn_01x02" H 7070 1976 50  0000 C CNN
-F 2 "" H 7150 1850 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 7150 1850 50  0001 C CNN
 F 3 "~" H 7150 1850 50  0001 C CNN
 	1    7150 1850
 	-1   0    0    -1  
@@ -329,8 +329,75 @@ Text Notes 6950 1350 0    50   ~ 0
 Datenrückleitung von Ausgangsplatine\n(Doppelkabel an Mittelsteg)
 Text Notes 8800 1350 0    50   ~ 0
 Datenausgang\n(Klinkenstecker 2)
-Text Notes 1500 2800 0    50   ~ 0
-Spannungsversorgung\n(XT30)
-Text Notes 6850 2800 0    50   ~ 0
+Text Notes 1500 3050 0    50   ~ 0
+Spannungsversorgung - Eingang\n(XT30)
+Text Notes 6850 3050 0    50   ~ 0
 Spannungsversorgung für Ausgangplatine\n(Zwei dicke Kabel am Mittelsteg)
+$Comp
+L power:+5V #PWR0109
+U 1 1 5F955C68
+P 7550 4800
+F 0 "#PWR0109" H 7550 4650 50  0001 C CNN
+F 1 "+5V" H 7565 4973 50  0000 C CNN
+F 2 "" H 7550 4800 50  0001 C CNN
+F 3 "" H 7550 4800 50  0001 C CNN
+	1    7550 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F955C6E
+P 7550 5200
+F 0 "#PWR0110" H 7550 4950 50  0001 C CNN
+F 1 "GND" H 7555 5027 50  0000 C CNN
+F 2 "" H 7550 5200 50  0001 C CNN
+F 3 "" H 7550 5200 50  0001 C CNN
+	1    7550 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5F955C7B
+P 7050 4800
+F 0 "J10" H 6970 4575 50  0000 C CNN
+F 1 "Conn_01x01" H 6970 4666 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 7050 4800 50  0001 C CNN
+F 3 "~" H 7050 4800 50  0001 C CNN
+	1    7050 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5F955C82
+P 7050 5200
+F 0 "J11" H 6970 4975 50  0000 C CNN
+F 1 "Conn_01x01" H 6970 5066 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2.5mm" H 7050 5200 50  0001 C CNN
+F 3 "~" H 7050 5200 50  0001 C CNN
+	1    7050 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 4800 7250 4800
+Wire Wire Line
+	7550 5200 7250 5200
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5F9566A3
+P 7150 2350
+F 0 "J12" H 7070 2567 50  0000 C CNN
+F 1 "Conn_01x02" H 7070 2476 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 7150 2350 50  0001 C CNN
+F 3 "~" H 7150 2350 50  0001 C CNN
+	1    7150 2350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7650 2350 2    50   Output ~ 0
+clk3
+Text GLabel 7650 2450 2    50   Output ~ 0
+d3
+Wire Wire Line
+	7650 2350 7350 2350
+Wire Wire Line
+	7650 2450 7350 2450
 $EndSCHEMATC
