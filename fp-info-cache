@@ -1,4 +1,4 @@
-20904772519989217
+20908128523103377
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87478,6 +87478,20 @@ Lumberg-KLB-4-Klinkensteckverbinder-3_5-180deg-turnable
 0
 4
 4
+h8-Connectors
+Solder-Pad-THT-0.7mm
+
+
+0
+1
+1
+h8-Connectors
+Solder-Pad-THT-1.5mm
+
+
+0
+1
+1
 h8-Connectors
 Switchcraft-35RAPC4BH3
 
