@@ -201,8 +201,8 @@
   (footprint "QR_Lib:QR_ProjecData" (layer "F.Cu")
     (tedit 0) (tstamp 30111730-884f-43db-b05d-4501b47aac74)
     (at 12.297561 -7.1 120)
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "QR***" (at 0 4.25 120) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "QR1" (at 0 4.25 120) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f19f9af-b9a9-4f8b-8b02-1a7fee07374a)
     )
@@ -2190,8 +2190,8 @@
   (footprint "QR_Lib:QR_WebUrl" (layer "F.Cu")
     (tedit 0) (tstamp e64e70c1-a24d-405d-8889-2c62fec75d94)
     (at -12.297561 -7.1 -120)
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "QR***" (at 0 4.25 60) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "QR2" (at 0 4.25 60) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c12a4d46-be15-4d91-8754-76d164026008)
     )
