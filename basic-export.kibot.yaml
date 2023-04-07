@@ -474,7 +474,7 @@ outputs:
     qrs:
     - correction_level: low
       name: QR_ProjecData
-      text: '%p %r %c'
+      text: '%p %r by %c'    # "LightPipe PCB v0.1.0 by HansAchterbahn"
       #pcb_negative: true
       size_pcb: 6
     - correction_level: low
