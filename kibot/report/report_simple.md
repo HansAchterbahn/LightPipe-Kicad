@@ -1,7 +1,7 @@
 PCB Specifications:
 Size:
 
-- 31.07x20.16 mm
+- 30.59x20.11 mm
 
 Class: 4D
 

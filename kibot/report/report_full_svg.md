@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 31.07x20.16 mm (1.22x0.79 inches)
+Board size: 30.59x20.11 mm (1.2x0.79 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -80,7 +80,7 @@ Defined tracks:
 
 Used tracks:
 
-- 0.25 mm (10 mils) (115) defined: no
+- 0.25 mm (10 mils) (114) defined: no
 
 Defined vias:
 

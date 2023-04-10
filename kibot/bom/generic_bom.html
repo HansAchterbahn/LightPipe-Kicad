@@ -670,11 +670,11 @@ BtCXCcHZoZPflfXLomOl4v8DzltYEK9QOG8AAAAASUVORK5CYII=" alt="Logo" width="370" hei
 </tr>
 <tr>
  <td class="cell-info">
-   <b>Schematic</b>: LightPipe_Out_PCB<br>
+   <b>Schematic</b>: LightPipe_PCB<br>
    <b>Variant</b>: default<br>
    <b>Revision</b>: v0.1.0<br>
-   <b>Date</b>: 2020-02-10<br>
-   <b>KiCad Version</b>: 6.0.10-86aedd382b~118~ubuntu20.04.1<br>
+   <b>Date</b>: 2023-04-07<br>
+   <b>KiCad Version</b>: 6.0.11-2627ca5db0~126~ubuntu20.04.1<br>
  </td>
  <td class="cell-stats">
    <b>Component Groups</b>: 6<br>
@@ -699,6 +699,11 @@ BtCXCcHZoZPflfXLomOl4v8DzltYEK9QOG8AAAAASUVORK5CYII=" alt="Logo" width="370" hei
    <th class="th-gen">Quantity Per PCB</th>
    <th class="th-gen">Status</th>
    <th class="th-kicad">Datasheet</th>
+   <th class="th-user">qr_version</th>
+   <th class="th-user">qr_size</th>
+   <th class="th-user">qr_ecc</th>
+   <th class="th-user">qr_mask</th>
+   <th class="th-user">qr_text</th>
   </tr>
  </thead>
  <tbody>
@@ -707,66 +712,96 @@ BtCXCcHZoZPflfXLomOl4v8DzltYEK9QOG8AAAAASUVORK5CYII=" alt="Logo" width="370" hei
    <td class="td-user0">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
    <td class="td-kicad0">Conn_01x04</td>
    <td class="td-kicad0"><div id="LD3"></div><div id="LD1"></div>LD1 LD3</td>
-   <td class="td-kicad0">Conn_01x04</td>
+   <td class="td-kicad0">APA102</td>
    <td class="td-kicad0">APA102-Strip-Output</td>
    <td class="td-gen0">2</td>
    <td class="td-gen0"> </td>
    <td class="td-empty0">~</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
   </tr>
   <tr id="1">
    <td class="td-gen1">2</td>
    <td class="td-user1">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
    <td class="td-kicad1">Conn_01x04</td>
    <td class="td-kicad1"><div id="LD2"></div>LD2</td>
-   <td class="td-kicad1">Conn_01x04</td>
+   <td class="td-kicad1">APA102</td>
    <td class="td-kicad1">APA102-Strip-Input</td>
    <td class="td-gen1">1</td>
    <td class="td-gen1"> </td>
    <td class="td-empty1">~</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
   </tr>
   <tr id="2">
    <td class="td-gen0">3</td>
    <td class="td-user0">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
    <td class="td-kicad0">Conn_01x01</td>
    <td class="td-kicad0"><div id="X4.2"></div><div id="X4.1"></div>X4.1 X4.2</td>
-   <td class="td-kicad0">Conn_01x01</td>
+   <td class="td-kicad0">Cable-0.7mm</td>
    <td class="td-kicad0">Solder-Pad-THT-0.7mm</td>
    <td class="td-gen0">2</td>
    <td class="td-gen0"> </td>
    <td class="td-empty0">~</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
   </tr>
   <tr id="3">
    <td class="td-gen1">4</td>
    <td class="td-user1">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
    <td class="td-kicad1">Conn_01x01</td>
    <td class="td-kicad1"><div id="X5.2"></div><div id="X5.1"></div>X5.1 X5.2</td>
-   <td class="td-kicad1">Conn_01x01</td>
+   <td class="td-kicad1">Cable-1.5mm</td>
    <td class="td-kicad1">Solder-Pad-THT-1.5mm</td>
    <td class="td-gen1">2</td>
    <td class="td-gen1"> </td>
    <td class="td-empty1">~</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
   </tr>
   <tr id="4">
    <td class="td-gen0">5</td>
-   <td class="td-user0">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
-   <td class="td-kicad0">Conn_01x02</td>
-   <td class="td-kicad0"><div id="X3"></div>X3</td>
-   <td class="td-kicad0">Conn_01x02</td>
-   <td class="td-kicad0">XT30</td>
-   <td class="td-gen0">1</td>
+   <td class="td-user0">4-pin DIN connector</td>
+   <td class="td-kicad0">DIN-4</td>
+   <td class="td-kicad0"><div id="X2"></div><div id="X1"></div>X1 X2</td>
+   <td class="td-kicad0">KLB-4</td>
+   <td class="td-kicad0">Lumberg-KLB-4-Klinkensteckverbinder-3_5-180deg-turnable</td>
+   <td class="td-gen0">2</td>
    <td class="td-gen0"> </td>
-   <td class="td-empty0">~</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
   </tr>
   <tr id="5">
    <td class="td-gen1">6</td>
-   <td class="td-user1">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
-   <td class="td-kicad1">Conn_01x04</td>
-   <td class="td-kicad1"><div id="X2"></div><div id="X1"></div>X1 X2</td>
-   <td class="td-kicad1">Conn_01x04</td>
-   <td class="td-kicad1">Lumberg-KLB-4-Klinkensteckverbinder-3_5-180deg-turnable</td>
-   <td class="td-gen1">2</td>
+   <td class="td-user1">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
+   <td class="td-kicad1">Conn_01x02</td>
+   <td class="td-kicad1"><div id="X3"></div>X3</td>
+   <td class="td-kicad1">XT30</td>
+   <td class="td-kicad1">XT30</td>
+   <td class="td-gen1">1</td>
    <td class="td-gen1"> </td>
    <td class="td-empty1">~</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
   </tr>
  </tbody>
 </table>
