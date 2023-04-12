@@ -46,13 +46,13 @@ Track width: 0.25 mm (10 mils)
 
 Drill: 0.3 mm (12 mils)
 
-- Vias: 0.3 mm (12 mils) [Design: 0.4 mm (16 mils)]
+- Vias: 0.3 mm (12 mils) [Design: 0.3 mm (12 mils)]
 - Pads: 0.8 mm (31 mils)
 - The above values are real drill sizes, they add 0.1 mm (4 mils) to plated holes (PTH)
 
 Via: 0.6/0.2 mm (24/8 mils)
 
-- By design rules: 0.4/0.3 mm (16/12 mils)
+- By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: no [0.2/0.1 mm (8/4 mils)]
 - Burried/blind via: no
 

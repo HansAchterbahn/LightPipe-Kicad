@@ -235,6 +235,12 @@ outputs:
   - layer: F.Cu
     suffix: F_Cu
     description: Front copper
+  - layer: In1.Cu
+    suffix: In1_Cu
+    description: Inner Layer 1
+  - layer: In2.Cu
+    suffix: In2_Cu
+    description: Inner Layer 2
   - layer: B.Cu
     suffix: B_Cu
     description: Bottom copper
@@ -332,105 +338,6 @@ outputs:
     move_files: true
     output: 'JLCPCB.%x'
 
-# Production Data - PCBWay
-- name: PCBWay_gerbers
-  comment: Gerbers compatible with PCBWay
-  type: gerber
-  dir: kibot/manufacturers/pcbway
-  options:
-    exclude_edge_layer: true
-    exclude_pads_from_silkscreen: true
-    plot_sheet_reference: false
-    plot_footprint_refs: true
-    plot_footprint_values: true
-    force_plot_invisible_refs_vals: false
-    tent_vias: true
-    use_protel_extensions: true
-    create_gerber_job_file: false
-    output: '%f.%x'
-    gerber_precision: 4.6
-    use_gerber_x2_attributes: false
-    use_gerber_net_attributes: false
-    disable_aperture_macros: true
-    line_width: 0.1
-    subtract_mask_from_silk: false
-    inner_extension_pattern: .gl%N
-  layers: *id002
-- name: PCBWay_drill
-  comment: Drill files compatible with PCBWay
-  type: excellon
-  dir: kibot/manufacturers/pcbway
-  options:
-    metric_units: false
-    minimal_header: true
-    zeros_format: SUPPRESS_LEADING
-    left_digits: 2
-    right_digits: 4
-    pth_and_npth_single_file: false
-    pth_id: ''
-    npth_id: -NPTH
-    output: '%f%i.drl'
-- name: PCBWay
-  comment: ZIP file for PCBWay
-  type: compress
-  dir: kibot/manufacturers
-  options:
-    format: ZIP
-    files:
-    - from_output: PCBWay_gerbers
-      dest: /
-    - from_output: PCBWay_drill
-      dest: /
-    move_files: true
-    output: 'PCBWay.%x'
-
-# Production Data - FusionPCB
-- name: FusionPCB_gerbers
-  comment: Gerbers compatible with FusionPCB
-  type: gerber
-  dir: kibot/manufacturers/fusionpcb
-  options:
-    exclude_edge_layer: true
-    exclude_pads_from_silkscreen: true
-    plot_sheet_reference: false
-    plot_footprint_refs: true
-    plot_footprint_values: true
-    force_plot_invisible_refs_vals: false
-    tent_vias: true
-    use_protel_extensions: true
-    create_gerber_job_file: false
-    output: '%f.%x'
-    gerber_precision: 4.6
-    use_gerber_x2_attributes: false
-    use_gerber_net_attributes: false
-    disable_aperture_macros: true
-    line_width: 0.1
-    uppercase_extensions: true
-    subtract_mask_from_silk: false
-    use_aux_axis_as_origin: true
-    inner_extension_pattern: .gl%N
-    edge_cut_extension: .gml
-  layers: *id002
-- name: FusionPCB_drill
-  comment: Drill files compatible with FusionPCB
-  type: excellon
-  dir: kibot/manufacturers/fusionpcb
-  options:
-    pth_and_npth_single_file: true
-    use_aux_axis_as_origin: true
-    output: '%f.TXT'
-- name: FusionPCB
-  comment: ZIP file for FusionPCB
-  type: compress
-  dir: kibot/manufacturers
-  options:
-    files:
-    - from_output: FusionPCB_gerbers
-      dest: /
-    - from_output: FusionPCB_drill
-      dest: /
-    move_files: true
-    output: 'FusionPCB.%x'
 
 ################################################################################
 # KiBot Stuff
@@ -709,8 +616,8 @@ outputs:
     ray_tracing: true
     orthographic: true
     zoom: 3
-    height: 1440 #720
-    width: 2560 #1280
+    height:  720 #1440
+    width:  1280 #2560
 - name: basic_render_3d_top_30deg
   comment: 3D view from top 30 degrees
   type: render_3d
@@ -722,8 +629,8 @@ outputs:
     rotate_x: 3
     rotate_z: 2
     zoom: 3
-    height: 1440 #720
-    width: 2560 #1280
+    height:  720 #1440
+    width:  1280 #2560
 - name: basic_render_3d_bottom
   comment: 3D view from bottom
   type: render_3d
@@ -734,8 +641,8 @@ outputs:
     orthographic: true
     view: bottom
     zoom: 3
-    height: 720
-    width: 1280
+    height:  720 #1440
+    width:  1280 #2560
 - name: basic_render_3d_bottom_30deg
   comment: 3D view from bottom 30 degrees
   type: render_3d
@@ -748,8 +655,8 @@ outputs:
     rotate_z: -2
     view: bottom
     zoom: 3
-    height: 1440 #720
-    width: 2560 #1280
+    height:  720 #1440
+    width:  1280 #2560
 
 ################################################################################
 # Reports
