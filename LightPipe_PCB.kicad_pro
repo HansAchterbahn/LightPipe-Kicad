@@ -55,7 +55,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|116957951|87793339|9881203d-e17f-4df8-91ec-e973518d3663|efd92822-12c0-4c95-ac75-661917a4edb6",
+        "copper_edge_clearance|118307951|85455070|9881203d-e17f-4df8-91ec-e973518d3663|27d89cbb-a196-403d-9119-96201208b50d",
+        "copper_edge_clearance|119657951|83116802|9881203d-e17f-4df8-91ec-e973518d3663|2f51fe7d-366f-4426-9f28-288f371eff2e",
+        "copper_edge_clearance|121007951|80778533|9881203d-e17f-4df8-91ec-e973518d3663|42956bb3-4a2e-4a4c-a51d-ef20dbd46590",
+        "copper_edge_clearance|122010000|99800000|27caccae-e8c6-434e-ba53-ebaa0f871116|db6b0585-8840-40f2-a3b0-9a48e614d959",
+        "copper_edge_clearance|124710000|99800000|27caccae-e8c6-434e-ba53-ebaa0f871116|f850c62b-ff5c-44b9-b666-0c6fe98f7435",
+        "copper_edge_clearance|127410000|99800000|27caccae-e8c6-434e-ba53-ebaa0f871116|73d53185-0d75-4e1c-87c9-e3ea1ce4b4e5",
+        "copper_edge_clearance|130110000|99800000|27caccae-e8c6-434e-ba53-ebaa0f871116|2e2b214f-8e66-4773-8d57-95c655440fba",
+        "copper_edge_clearance|133187049|81116283|230a78e5-2f2d-4183-83a3-6b7b1da2b005|3a8bbc59-8225-45f5-8c31-0c303cd9e4a4",
+        "copper_edge_clearance|133737049|82068911|230a78e5-2f2d-4183-83a3-6b7b1da2b005|d8b731c9-d796-4fef-8efb-d22fd04dd78b",
+        "copper_edge_clearance|133932049|82406661|230a78e5-2f2d-4183-83a3-6b7b1da2b005|0a690138-761d-4a21-9c7e-2998e1e04d18",
+        "copper_edge_clearance|135282049|84744930|230a78e5-2f2d-4183-83a3-6b7b1da2b005|3063366b-45d6-431d-8b41-2196e810bb3e",
+        "copper_edge_clearance|136632049|87083198|230a78e5-2f2d-4183-83a3-6b7b1da2b005|cd6c2ff5-7120-4098-854b-d08c2edaa8bd",
+        "copper_edge_clearance|137237049|88131089|230a78e5-2f2d-4183-83a3-6b7b1da2b005|df0011bb-f83c-4fe1-9b4c-1df2c2297ae2",
+        "copper_edge_clearance|137787049|89083717|230a78e5-2f2d-4183-83a3-6b7b1da2b005|293866d2-d342-4458-8997-de69fce78271",
+        "copper_edge_clearance|137982049|89421467|230a78e5-2f2d-4183-83a3-6b7b1da2b005|8fd57e9f-eb45-49ec-b170-8344fe6c53e0",
+        "track_dangling|141573442|86237388|d0511be7-c0c4-49c3-8622-602d6687ea82|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -113,7 +131,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
@@ -432,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LightPipe_Out_PCB.kicad_pro",
+    "filename": "LightPipe_PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -450,8 +468,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6.0
       },
       {
@@ -468,8 +486,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],

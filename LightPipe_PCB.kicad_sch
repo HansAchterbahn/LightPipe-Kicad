@@ -4378,10 +4378,14 @@
   )
 
   (symbol (lib_id "QR_Lib:QR_ProjecData") (at 27.94 184.15 0) (unit 1)
-    (in_bom no) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes)
     (uuid 8ca2c3de-1205-4532-8a76-d9c1a6b1f484)
-    (property "Reference" "#QR1" (id 0) (at 27.98 173.0767 0))
-    (property "Value" "QR_ProjecData" (id 1) (at 27.98 175.6136 0))
+    (property "Reference" "QR1" (id 0) (at 25.4 172.72 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "QR_ProjecData" (id 1) (at 21.59 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
     (property "Footprint" "QR:QR_ProjecData" (id 2) (at 27.94 194.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4429,7 +4433,7 @@
   (symbol (lib_id "QR_Lib:QR_WebUrl") (at 50.8 184.15 0) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid cb914536-84d3-4fd6-ba86-3661b57a5b27)
-    (property "Reference" "#QR2" (id 0) (at 50.84 173.0767 0))
+    (property "Reference" "QR2" (id 0) (at 50.84 173.0767 0))
     (property "Value" "QR_WebUrl" (id 1) (at 50.84 175.6136 0))
     (property "Footprint" "QR:QR_WebUrl" (id 2) (at 50.8 194.6 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4539,12 +4543,6 @@
     (path "/e6b0b1d8-3ae6-48fc-802d-fa16e81c99f9"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/8ca2c3de-1205-4532-8a76-d9c1a6b1f484"
-      (reference "#QR1") (unit 1) (value "QR_ProjecData") (footprint "QR:QR_ProjecData")
-    )
-    (path "/cb914536-84d3-4fd6-ba86-3661b57a5b27"
-      (reference "#QR2") (unit 1) (value "QR_WebUrl") (footprint "QR:QR_WebUrl")
-    )
     (path "/00000000-0000-0000-0000-00005f94ae24"
       (reference "LD1") (unit 1) (value "APA102") (footprint "h8-Connectors:APA102-Strip-Output")
     )
@@ -4553,6 +4551,12 @@
     )
     (path "/00000000-0000-0000-0000-00005f94af29"
       (reference "LD3") (unit 1) (value "APA102") (footprint "h8-Connectors:APA102-Strip-Output")
+    )
+    (path "/8ca2c3de-1205-4532-8a76-d9c1a6b1f484"
+      (reference "QR1") (unit 1) (value "QR_ProjecData") (footprint "QR:QR_ProjecData")
+    )
+    (path "/cb914536-84d3-4fd6-ba86-3661b57a5b27"
+      (reference "QR2") (unit 1) (value "QR_WebUrl") (footprint "QR:QR_WebUrl")
     )
     (path "/c2774b4d-69cb-4b83-93d8-9a28fe6279cf"
       (reference "X1") (unit 1) (value "KLB-4") (footprint "h8-Connectors:Lumberg-KLB-4-Klinkensteckverbinder-3_5-180deg-turnable")
