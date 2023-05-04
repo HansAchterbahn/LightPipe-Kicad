@@ -1,4 +1,4 @@
-20911497387270219
+20914868489538027
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87479,6 +87479,13 @@ JST_S2B-ZR-SM4A-TF(LF)(SN)
 4
 4
 h8-Connectors
+Lumberg-KLB-4-Jack-3_5-180deg-turnable
+
+
+0
+4
+4
+h8-Connectors
 Lumberg-KLB-4-Klinkensteckverbinder-3_5
 
 
@@ -87527,6 +87534,13 @@ Wuerth-691102710003
 0
 3
 3
+h8-Connectors
+XKB- PJ-392-Jack-3_5-180deg-turnable
+
+
+0
+4
+4
 h8-Connectors
 XT30
 
