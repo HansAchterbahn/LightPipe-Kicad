@@ -1,0 +1,373 @@
+# Basic KiBot export for HansAchterbahn projects
+kibot:
+  version: 1
+
+preflight:
+  # [boolean=false] Zones are filled before doing any operation involving PCB layers
+  check_zone_fills: true
+  # [boolean=false] Option for `run_drc`. Ignores the unconnected nets. Useful if you didn't finish the routing
+  ignore_unconnected: false
+  # [boolean=false] Runs the DRC (Design Rules Check). To ensure we have a valid PCB
+  run_drc: false
+  # [boolean=false] Runs the ERC (Electrical Rules Check). To ensure the schematic is electrically correct
+  run_erc: false
+  # [boolean=false] Update the XML version of the BoM (Bill of Materials).
+       # To ensure our generated BoM is up to date.
+       # Note that this isn't needed when using the internal BoM generator (`bom`)
+  update_xml: false
+
+global:
+  filters:
+  - number: 1007
+  - number: 1015
+  - number: 58
+
+filters:
+- name: only_jlc_parts
+  comment: Only parts with JLC (LCSC) code
+  type: generic
+  include_only:
+  - column: LCSC#
+    regex: ^C\d+
+
+variants:
+- name: place_holder
+  comment: Just a place holder for pre_transform filters
+  type: kicost
+  pre_transform:
+  - _kicost_rename
+  - _rot_footprint
+
+outputs:
+
+################################################################################
+# BoM
+################################################################################
+
+# Generic BoM (CSV, HTML)
+- name: generic_bom_html
+  comment: Generic Bill of Materials in HTML format
+  type: bom
+  dir: kibot/bom
+  options:
+    format: HTML
+    count_smd_tht: true
+    output: 'generic_bom.%x'
+- name: generic_bom_csv
+  comment: Generic Bill of Materials in CSV format
+  type: bom
+  dir: kibot/bom
+  options:
+    format: CSV
+    count_smd_tht: true
+    output: 'generic_bom.%x'
+- name: generic_bom_xml
+  comment: Generic Bill of Materials in XML format
+  type: bom
+  dir: kibot/bom
+  options:
+    format: XML
+    count_smd_tht: true
+    output: 'generic_bom.%x'
+- name: generic_bom_xlsx
+  comment: Generic Bill of Materials in XLSX format
+  type: bom
+  dir: kibot/bom
+  options:
+    format: XLSX
+    count_smd_tht: true
+    output: 'generic_bom.%x'
+
+# BoM - Interactive BoM (HTML)
+- name: basic_ibom
+  comment: Interactive HTML BoM
+  type: ibom
+  dir: kibot/bom
+  options:
+    output: 'interactive_bom.%x'
+
+################################################################################
+# Production Data (Gerber / Drill / ...)
+################################################################################
+
+# Production Data - JLCPCB
+- name: JLCPCB_gerbers
+  comment: Gerbers compatible with JLCPCB
+  type: gerber
+  dir: kibot/manufacturers/jlcpcb
+  options:
+    exclude_edge_layer: true
+    exclude_pads_from_silkscreen: true
+    plot_sheet_reference: false
+    plot_footprint_refs: true
+    plot_footprint_values: false
+    force_plot_invisible_refs_vals: false
+    tent_vias: true
+    use_protel_extensions: true
+    create_gerber_job_file: false
+    disable_aperture_macros: true
+    gerber_precision: 4.6
+    use_gerber_x2_attributes: false
+    use_gerber_net_attributes: false
+    line_width: 0.1
+    subtract_mask_from_silk: true
+    inner_extension_pattern: .gp%n
+  layers: &id002
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: In1.Cu
+    suffix: In1_Cu
+    description: Inner Layer 1
+  - layer: In2.Cu
+    suffix: In2_Cu
+    description: Inner Layer 2
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Bottom solder paste
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+- name: JLCPCB_drill
+  comment: Drill files compatible with JLCPCB
+  type: excellon
+  dir: kibot/manufacturers/jlcpcb
+  options:
+    pth_and_npth_single_file: false
+    pth_id: -PTH
+    npth_id: -NPTH
+    metric_units: true
+    map: gerber
+    route_mode_for_oval_holes: false
+    output: '%f%i.%x'
+- name: JLCPCB_position
+  comment: Pick and place file, JLCPCB style
+  type: position
+  dir: kibot/manufacturers/jlcpcb
+  options:
+    variant: place_holder
+    output: '%f_cpl_jlc.%x'
+    format: CSV
+    units: millimeters
+    separate_files_for_front_and_back: false
+    only_smd: true
+    columns:
+    - id: Ref
+      name: Designator
+    - Val
+    - Package
+    - id: PosX
+      name: Mid X
+    - id: PosY
+      name: Mid Y
+    - id: Rot
+      name: Rotation
+    - id: Side
+      name: Layer
+- name: JLCPCB_bom
+  comment: BoM for JLCPCB
+  type: bom
+  dir: kibot/manufacturers/jlcpcb
+  options:
+    output: '%f_%i_jlc.%x'
+    exclude_filter: only_jlc_parts
+    ref_separator: ','
+    columns:
+    - field: Value
+      name: Comment
+    - field: References
+      name: Designator
+    - Footprint
+    - field: LCSC#
+      name: 'LCSC Part #'
+    csv:
+      hide_pcb_info: true
+      hide_stats_info: true
+      quote_all: true
+- name: JLCPCB
+  comment: ZIP file for JLCPCB
+  type: compress
+  dir: kibot/manufacturers
+  options:
+    files:
+    - from_output: JLCPCB_gerbers
+      dest: /
+    - from_output: JLCPCB_drill
+      dest: /
+    - from_output: JLCPCB_position
+      dest: /
+    - from_output: JLCPCB_bom
+      dest: /
+    move_files: true
+    output: 'JLCPCB.%x'
+
+
+################################################################################
+# KiBot Stuff
+################################################################################
+
+# - name: basic_info
+#   comment: Information about the run
+#   type: info
+#   dir: .
+# - name: basic_navigate_results
+#   comment: Web page to browse the results
+#   type: navigate_results
+#   dir: Browse
+#   options:
+#     link_from_root: index.html
+
+# - name: classic_netlist
+#   comment: Schematic netlist in KiCad format
+#   type: netlist
+#   dir: Export
+
+# - name: ipc_netlist
+#   comment: IPC-D-356 netlist for testing
+#   type: netlist
+#   dir: Export
+#   options:
+#     format: ipc
+
+
+
+################################################################################
+# Libraries
+################################################################################
+
+# Generate QR-Code
+- name: basic_qr_lib
+  comment: QR code symbol and footprint
+  type: qr_lib
+  dir: kibot/qr_libs
+  options:
+    qrs:
+    - correction_level: low
+      name: QR_ProjecData
+      text: '%p %r by %c'    # "LightPipe PCB v0.1.0 by HansAchterbahn"
+      #pcb_negative: true
+      size_pcb: 6
+    - correction_level: low
+      name: QR_WebUrl
+      text: https://github.com/HansAchterbahn/LightPipe
+      size_pcb: 6
+    use_sch_dir: false
+    output: 'QR_Lib.%x'
+
+################################################################################
+# Plots
+################################################################################
+
+# Schematic Plot (SVG)
+- name: basic_svg_sch_print
+  comment: Schematic in SVG format
+  type: svg_sch_print
+  dir: kibot/doc
+  options:
+    output: 'schematic.%x'
+
+# Board Plot Layers (SVG)
+- name: pcb_layer_plot_svg
+  comment: PCB
+  type: pcb_print
+  dir: kibot/doc/pcb/
+  options:
+    format: SVG
+    output: 'pcb-layer-%i.%x'
+    color_theme: 'user'
+    force_edge_cuts: true
+    scaling: 0
+    plot_sheet_reference: false
+    keep_temporal_files: false
+    add_background: false
+    dpi: 600
+    frame_plot_mechanism: internal #gui, internal, plot
+    pages:
+    - layers:
+      - layer: F.Cu
+      sheet: 'Top'
+    - layers:
+      - layer: In1.Cu
+      sheet: 'In1'
+    - layers:
+      - layer: In2.Cu
+      sheet: 'In2'
+    - layers:
+      - layer: B.Cu
+      sheet: 'Bottom'
+
+
+# Board Plot Assembly (SVG)
+- name: pcb_assembly_plot_svg
+  comment: PCB
+  type: pcb_print
+  dir: kibot/assembly/
+  options:
+    format: SVG
+    output: 'pcb-%i.%x'
+    color_theme: 'user' #'_builtin_classic', '_builtin_default'
+    force_edge_cuts: true
+    scaling: 0
+    plot_sheet_reference: false
+    keep_temporal_files: false
+    add_background: false
+    dpi: 600
+    frame_plot_mechanism: gui
+    pages:
+    - layers:
+      - layer: F.Silkscreen
+      - layer: F.Fab
+      - layer: User.Comments
+      sheet: 'Assembly Top'
+    - layers:
+      - layer: B.Silkscreen
+      - layer: B.Fab
+      - layer: User.Comments
+      sheet: 'Assembly Bottom'
+
+
+################################################################################
+# Reports
+################################################################################
+
+# Design Report (Simple)
+- name: report_simple
+  comment: Simple design report
+  type: report
+  dir: kibot/report
+  output_id: _simple
+  options:
+    template: simple_ASCII
+    output: 'report_simple.md'
+    do_convert: false
+    converted_output: 'report_simple.%x'
+
+
+# Design Report (full_SVG)
+- name: report_full
+  comment: Full design report
+  dir: kibot/report
+  type: report
+  options:
+    template: full_SVG
+    output: 'report_full_svg.md'
+    do_convert: false
+    converted_output: 'report_full_svg.%x'
