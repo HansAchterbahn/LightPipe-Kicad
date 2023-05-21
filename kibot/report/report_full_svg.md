@@ -120,7 +120,15 @@ Drill tools (including vias and computing adjusts and rounding):
 
 # PCB Layers
 
-![PCB Front copper](../pcb/board-assembly_page_01-_n.svg){ width=16.5cm height=11.7cm }
+![PCB Top](../doc/pcb/pcb-layer-assembly_page_01.svg){ width=16.5cm height=11.7cm }
 
-![PCB Bottom copper](../pcb/board-assembly_page_02-_n.svg){ width=16.5cm height=11.7cm }
+![PCB In1](../doc/pcb/pcb-layer-assembly_page_02.svg){ width=16.5cm height=11.7cm }
+
+![PCB In2](../doc/pcb/pcb-layer-assembly_page_03.svg){ width=16.5cm height=11.7cm }
+
+![PCB Bottom](../doc/pcb/pcb-layer-assembly_page_04.svg){ width=16.5cm height=11.7cm }
+
+![PCB Assembly Top](../assembly/pcb-assembly_page_01.svg){ width=16.5cm height=11.7cm }
+
+![PCB Assembly Bottom](../assembly/pcb-assembly_page_02.svg){ width=16.5cm height=11.7cm }
 
