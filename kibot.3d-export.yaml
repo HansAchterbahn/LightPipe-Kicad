@@ -70,13 +70,13 @@ outputs:
 # 3D Model
 ################################################################################
 
-# 3D STEP model creation
-- name: basic_step
-  comment: 3D model in STEP format
-  type: step
-  dir: kibot/3d/model
-  options:
-    output: '%f-3D-Model.%x'
+# # 3D STEP model creation
+# - name: basic_step
+#   comment: 3D model in STEP format
+#   type: step
+#   dir: kibot/3d/model
+#   options:
+#     output: '%f-3D-Model.%x'
 
 # 3D Renderer
 - name: basic_render_3d_top

@@ -1,0 +1,1376 @@
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+* wrapping fopen
+IO:open:/proc/filesystems
+IO:fopen:re
+* wrapping fclose
+* next_func : 0x7f9dfb007c70
+IO:close:/proc/filesystems
+IO:open:/home/mario/.Xauthority
+IO:fopen:rb
+IO:close:/home/mario/.Xauthority
+* wrapping open64
+IO:open:/usr/share/drirc.d/00-amber-defaults.conf
+IO:open64:0xF4D211D0
+* wrapping close
+IO:close:/usr/share/drirc.d/00-amber-defaults.conf
+IO:open:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open64:0xF4D211D0
+IO:close:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open:/usr/share/drirc.d/00-radv-defaults.conf
+IO:open64:0xF4D211D0
+IO:close:/usr/share/drirc.d/00-radv-defaults.conf
+IO:open:/etc/drirc
+IO:open64:0xF4D211D0
+IO:close:/etc/drirc
+IO:open:/home/mario/.drirc
+IO:open64:0xF4D211D0
+IO:open:/usr/share/drirc.d/00-amber-defaults.conf
+IO:open64:0xF4D211D0
+IO:close:/usr/share/drirc.d/00-amber-defaults.conf
+IO:open:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open64:0xF4D211D0
+IO:close:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open:/usr/share/drirc.d/00-radv-defaults.conf
+IO:open64:0xF4D211D0
+IO:close:/usr/share/drirc.d/00-radv-defaults.conf
+IO:open:/etc/drirc
+IO:open64:0xF4D211D0
+IO:close:/etc/drirc
+IO:open:/home/mario/.drirc
+IO:open64:0xF4D211D0
+* wrapping open
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache
+IO:open64:0x0
+IO:close:/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache
+IO:close:anon_inode:[eventfd]
+IO:close:anon_inode:[eventfd]
+IO:close:anon_inode:[eventfd]
+* wrapping fopen64
+IO:open:/usr/lib/x86_64-linux-gnu/charset.alias
+IO:fopen64:r
+IO:open:/home/mario/.Xauthority
+IO:fopen:rb
+IO:close:/home/mario/.Xauthority
+IO:close:socket:[307483]
+IO:open:/usr/lib/ssl/openssl.cnf
+IO:fopen64:rb
+IO:close:/etc/ssl/openssl.cnf
+IO:open:/usr/share/kicad/internat/de/kicad.mo
+IO:open64:0x1B6
+IO:close:/usr/share/kicad/internat/de/kicad.mo
+IO:open:/home/mario/.config/kicad/7.0/colors/user.json
+IO:fopen64:rt
+IO:close:/home/mario/.config/kicad/7.0/colors/user.json
+IO:open:/home/mario/.config/kicad/7.0/kicad_common.json
+IO:fopen64:rt
+IO:close:/home/mario/.config/kicad/7.0/kicad_common.json
+IO:open:/usr/share/kicad/internat/de/kicad.mo
+IO:open64:0x1B6
+IO:close:/usr/share/kicad/internat/de/kicad.mo
+IO:open:/usr/bin/pyvenv.cfg
+IO:fopen64:r
+IO:open:/usr/pyvenv.cfg
+IO:fopen64:r
+IO:open:/usr/bin/pybuilddir.txt
+IO:fopen64:rb
+IO:open:/usr/lib/python3.10/encodings/__pycache__/__init__.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/encodings/__pycache__/__init__.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/codecs.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/codecs.cpython-310.pyc
+IO:open:/usr/lib/python3.10/encodings/__pycache__/aliases.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/encodings/__pycache__/aliases.cpython-310.pyc
+IO:open:/usr/lib/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/io.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/io.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/abc.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/abc.cpython-310.pyc
+IO:close:/dev/pts/0
+IO:close:pipe:[307480]
+IO:close:/dev/null
+IO:open:/usr/lib/python3.10/__pycache__/site.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/site.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/os.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/os.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/stat.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/stat.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/_collections_abc.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/_collections_abc.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/posixpath.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/posixpath.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/genericpath.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/genericpath.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/_sitebuiltins.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/_sitebuiltins.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/matplotlib-3.5.1-nspkg.pth
+IO:open64:0x1B6
+IO:open:/usr/lib/python3.10/__pycache__/types.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/types.cpython-310.pyc
+IO:open:/usr/lib/python3.10/importlib/__pycache__/__init__.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/importlib/__pycache__/__init__.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/warnings.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/warnings.cpython-310.pyc
+IO:open:/usr/lib/python3.10/importlib/__pycache__/util.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/importlib/__pycache__/util.cpython-310.pyc
+IO:open:/usr/lib/python3.10/importlib/__pycache__/_abc.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/importlib/__pycache__/_abc.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/contextlib.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/contextlib.cpython-310.pyc
+IO:open:/usr/lib/python3.10/collections/__pycache__/__init__.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/collections/__pycache__/__init__.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/keyword.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/keyword.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/operator.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/operator.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/reprlib.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/reprlib.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/functools.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/functools.cpython-310.pyc
+IO:open:/usr/lib/python3.10/importlib/__pycache__/machinery.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/importlib/__pycache__/machinery.cpython-310.pyc
+IO:close:/usr/lib/python3/dist-packages/matplotlib-3.5.1-nspkg.pth
+IO:open:/usr/lib/python3/dist-packages/repoze.lru-0.7-nspkg.pth
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/repoze.lru-0.7-nspkg.pth
+IO:open:/usr/lib/python3.10/__pycache__/sitecustomize.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/sitecustomize.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-310.pyc
+IO:open:/etc/gtk-3.0/settings.ini
+IO:open64:0x0
+IO:close:/etc/gtk-3.0/settings.ini
+IO:open:/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+IO:open64:0x1B6
+IO:close:/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+IO:open:/home/mario/.config/kicad/7.0/kicad.json
+IO:fopen64:rt
+IO:close:/home/mario/.config/kicad/7.0/kicad.json
+IO:open:/home/mario/.config/kicad/7.0/symbol_editor.json
+IO:fopen64:rt
+IO:close:/home/mario/.config/kicad/7.0/symbol_editor.json
+IO:open:/home/mario/.config/kicad/7.0/eeschema.json
+IO:fopen64:rt
+IO:close:/home/mario/.config/kicad/7.0/eeschema.json
+IO:open:/home/mario/.config/kicad/7.0/sym-lib-table
+IO:fopen64:rt
+IO:close:/home/mario/.config/kicad/7.0/sym-lib-table
+* wrapping window title change
+GTK:Window Title:Eeschema
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+* wrapping widget show
+IO:close:/etc/fonts/fonts.conf
+IO:close:/etc/fonts/conf.avail/10-antialias.conf
+IO:close:/etc/fonts/conf.avail/10-hinting-slight.conf
+IO:close:/etc/fonts/conf.avail/10-scale-bitmap-fonts.conf
+IO:close:/etc/fonts/conf.avail/11-lcdfilter-default.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-vera.conf
+IO:close:/etc/fonts/conf.avail/25-arphic-uming-render.conf
+IO:close:/etc/fonts/conf.avail/25-wqy-zenhei.conf
+IO:close:/etc/fonts/conf.avail/30-0-google-crosextra-carlito-fontconfig.conf
+IO:close:/etc/fonts/conf.avail/30-metric-aliases.conf
+IO:close:/usr/share/fontconfig/conf.avail/30-opensymbol.conf
+IO:close:/etc/fonts/conf.avail/35-arphic-uming-aliases.conf
+IO:close:/etc/fonts/conf.avail/40-nonlatin.conf
+IO:close:/etc/fonts/conf.avail/41-arphic-uming.conf
+IO:close:/usr/share/fontconfig/conf.avail/45-Hack.conf
+IO:close:/etc/fonts/conf.avail/45-generic.conf
+IO:close:/etc/fonts/conf.avail/45-latin.conf
+IO:close:/etc/fonts/conf.avail/49-sansserif.conf
+IO:close:/etc/fonts/conf.avail/50-user.conf
+IO:close:/etc/fonts/conf.avail/51-local.conf
+IO:close:/etc/fonts/conf.avail/57-dejavu-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/57-dejavu-sans.conf
+IO:close:/etc/fonts/conf.avail/57-dejavu-serif.conf
+IO:close:/etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/58-dejavu-lgc-sans.conf
+IO:close:/etc/fonts/conf.avail/58-dejavu-lgc-serif.conf
+IO:close:/etc/fonts/conf.avail/59-lohit-devanagari.conf
+IO:close:/etc/fonts/conf.avail/60-generic.conf
+IO:close:/etc/fonts/conf.avail/60-latin.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-bookman.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-c059.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-d050000l.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-fallback-backwards.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-fallback-generics.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-gothic.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-nimbus-mono-ps.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-nimbus-roman.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-nimbus-sans.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-p052.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-standard-symbols-ps.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-z003.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-01-tlwg-kinnari.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-02-tlwg-norasi.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-10-tlwg-loma.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-11-tlwg-waree.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-13-tlwg-garuda.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-14-tlwg-umpush.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-15-laksaman.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-21-tlwg-typo.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-22-tlwg-typist.conf
+IO:close:/usr/share/fontconfig/conf.avail/64-23-tlwg-mono.conf
+IO:close:/etc/fonts/conf.avail/64-wqy-zenhei.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-beng-extra.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-deva-extra.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-gubbi.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-gujr-extra.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-guru-extra.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-orya-extra.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-pagul.conf
+IO:close:/etc/fonts/conf.avail/65-0-fonts-telu-extra.conf
+IO:close:/etc/fonts/conf.avail/65-0-smc-meera.conf
+IO:close:/etc/fonts/conf.avail/65-0-smc-rachana.conf
+IO:close:/etc/fonts/conf.avail/65-droid-sans-fallback.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-arphic-uming.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-ipaexfont-gothic.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-ipaexfont-mincho.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-ipafont-gothic.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-ipafont-mincho.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-lmodern.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-persian.conf
+IO:close:/etc/fonts/conf.avail/65-fonts-takao-pgothic.conf
+IO:close:/etc/fonts/conf.d/65-khmer.conf
+IO:close:/etc/fonts/conf.avail/65-nonlatin.conf
+IO:close:/etc/fonts/conf.avail/65-wqy-microhei.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-assamese.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-bengali.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-devanagari.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-gujarati.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-gurmukhi.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-kannada.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-odia.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-tamil-classical.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-tamil.conf
+IO:close:/etc/fonts/conf.avail/66-lohit-telugu.conf
+IO:close:/etc/fonts/conf.avail/67-fonts-smc-manjari.conf
+IO:close:/etc/fonts/conf.avail/67-smc-anjalioldlipi.conf
+IO:close:/etc/fonts/conf.avail/67-smc-chilanka.conf
+IO:close:/etc/fonts/conf.avail/67-smc-dyuthi.conf
+IO:close:/etc/fonts/conf.avail/67-smc-karumbi.conf
+IO:close:/etc/fonts/conf.avail/67-smc-keraleeyam.conf
+IO:close:/etc/fonts/conf.avail/67-smc-raghumalayalamsans.conf
+IO:close:/etc/fonts/conf.avail/67-smc-suruma.conf
+IO:close:/etc/fonts/conf.avail/67-smc-uroob.conf
+IO:close:/etc/fonts/conf.avail/69-unifont.conf
+IO:close:/usr/share/fontconfig/conf.avail/70-fonts-noto-cjk.conf
+IO:close:/etc/fonts/conf.avail/70-no-bitmaps.conf
+IO:close:/usr/share/fontconfig/conf.avail/71-enable-terminus.conf
+IO:close:/etc/fonts/conf.avail/80-delicious.conf
+IO:close:/usr/share/fontconfig/conf.avail/89-tlwg-garuda-synthetic.conf
+IO:close:/usr/share/fontconfig/conf.avail/89-tlwg-kinnari-synthetic.conf
+IO:close:/usr/share/fontconfig/conf.avail/89-tlwg-laksaman-synthetic.conf
+IO:close:/usr/share/fontconfig/conf.avail/89-tlwg-umpush-synthetic.conf
+IO:close:/etc/fonts/conf.avail/90-arphic-uming-embolden.conf
+IO:close:/usr/share/fontconfig/conf.avail/90-fonts-linux-libertine.conf
+IO:close:/usr/share/fontconfig/conf.avail/90-fonts-nanum.conf
+IO:close:/etc/fonts/conf.avail/90-synthetic.conf
+IO:close:/etc/fonts/conf.avail/10-autohint.conf
+IO:close:/etc/fonts/conf.avail/10-hinting-full.conf
+IO:close:/etc/fonts/conf.avail/10-hinting-medium.conf
+IO:close:/etc/fonts/conf.avail/10-hinting-none.conf
+IO:close:/etc/fonts/conf.avail/10-no-sub-pixel.conf
+IO:close:/etc/fonts/conf.avail/10-sub-pixel-bgr.conf
+IO:close:/etc/fonts/conf.avail/10-sub-pixel-rgb.conf
+IO:close:/etc/fonts/conf.avail/10-sub-pixel-vbgr.conf
+IO:close:/etc/fonts/conf.avail/10-sub-pixel-vrgb.conf
+IO:close:/etc/fonts/conf.avail/10-unhinted.conf
+IO:close:/etc/fonts/conf.avail/11-lcdfilter-legacy.conf
+IO:close:/etc/fonts/conf.avail/11-lcdfilter-light.conf
+IO:close:/etc/fonts/conf.avail/25-arphic-uming-bitmaps.conf
+IO:close:/etc/fonts/conf.avail/25-unhint-nonlatin.conf
+IO:close:/etc/fonts/conf.avail/30-droid-noto-mono.conf
+IO:close:/etc/fonts/conf.avail/30-droid-noto.conf
+IO:close:/etc/fonts/conf.avail/53-monospace-lcd-filter.conf
+IO:close:/etc/fonts/conf.avail/62-google-crosextra-carlito-fontconfig.conf
+IO:close:/etc/fonts/conf.avail/63-wqy-zenhei-sharp.conf
+IO:close:/etc/fonts/conf.avail/64-arphic-uming.conf
+IO:close:/etc/fonts/conf.avail/65-khmer.conf
+IO:close:/etc/fonts/conf.avail/67-lohit-malayalam.conf
+IO:close:/etc/fonts/conf.avail/70-force-bitmaps.conf
+IO:close:/etc/fonts/conf.avail/70-yes-bitmaps.conf
+IO:close:/usr/share/fonts/.uuid
+IO:close:/usr/share/fonts
+IO:close:/var/cache/fontconfig/fa091eba-c2a3-40cd-829b-6f13f36d6525-le64.cache-7
+IO:close:/usr/local/share/fonts/.uuid
+IO:close:/usr/local/share/fonts
+IO:close:/var/cache/fontconfig/c0092f97-86e9-4d32-96e0-cea22e796e9f-le64.cache-7
+IO:close:/home/mario/.local/share/fonts/.uuid
+IO:close:/home/mario/.local/share/fonts
+IO:close:/home/mario/.cache/fontconfig/e67ec6dd-ab17-4163-b8e6-46ab25ed6ca5-le64.cache-7
+IO:close:/usr/share/texmf/fonts/opentype/public/lm/.uuid
+IO:close:/usr/share/texmf/fonts/opentype/public/lm
+IO:close:/var/cache/fontconfig/b5b7ab98-54ef-4013-b60b-63d7cc902102-le64.cache-7
+IO:close:/usr/share/texmf/fonts/opentype/public/lm-math/.uuid
+IO:close:/usr/share/texmf/fonts/opentype/public/lm-math
+IO:close:/var/cache/fontconfig/047b21fe-a5b4-4066-b2b8-4badafa0420d-le64.cache-7
+IO:close:/usr/share/fonts/X11/.uuid
+IO:close:/usr/share/fonts/X11
+IO:close:/var/cache/fontconfig/a059f521-f56f-4363-b764-26a69b21a3ab-le64.cache-7
+IO:close:/usr/share/fonts/cMap/.uuid
+IO:close:/usr/share/fonts/cMap
+IO:close:/var/cache/fontconfig/8008fc2c-5eec-46b6-ab08-aa9f86a98d28-le64.cache-7
+IO:close:/usr/share/fonts/cmap/.uuid
+IO:close:/usr/share/fonts/cmap
+IO:close:/var/cache/fontconfig/d1d275f5-67c4-416f-85a0-46cc3fc99232-le64.cache-7
+IO:close:/usr/share/fonts/eot/.uuid
+IO:close:/usr/share/fonts/eot
+IO:close:/var/cache/fontconfig/b34f6956-d4ac-446a-80d7-52fa20005f0f-le64.cache-7
+IO:close:/usr/share/fonts/fonts-go/.uuid
+IO:close:/usr/share/fonts/fonts-go
+IO:close:/var/cache/fontconfig/d26f8133-b35b-46dd-92ab-25b2e9ad0d73-le64.cache-7
+IO:close:/usr/share/fonts/opentype/.uuid
+IO:close:/usr/share/fonts/opentype
+IO:close:/var/cache/fontconfig/f4a00181-cc0a-4345-9479-462267bfcd2f-le64.cache-7
+IO:close:/usr/share/fonts/svg/.uuid
+IO:close:/usr/share/fonts/svg
+IO:close:/var/cache/fontconfig/298a456a-6878-408e-a188-ec6ded705ead-le64.cache-7
+IO:close:/usr/share/fonts/truetype/.uuid
+IO:close:/usr/share/fonts/truetype
+IO:close:/var/cache/fontconfig/501ef01f-aa52-4a68-85bc-1fa88d6f607c-le64.cache-7
+IO:close:/usr/share/fonts/type1/.uuid
+IO:close:/usr/share/fonts/type1
+IO:close:/var/cache/fontconfig/51bc5201-6334-46fe-afd5-d02023985c5c-le64.cache-7
+IO:close:/usr/share/fonts/woff/.uuid
+IO:close:/usr/share/fonts/woff
+IO:close:/var/cache/fontconfig/f7a6cf72-ce29-4c61-9082-9e3f23bafdb0-le64.cache-7
+IO:close:/usr/share/fonts/X11/Type1/.uuid
+IO:close:/usr/share/fonts/X11/Type1
+IO:close:/var/cache/fontconfig/b4eef8dc-2e1c-48d9-8519-59de5aacd2e4-le64.cache-7
+IO:close:/usr/share/fonts/X11/encodings/.uuid
+IO:close:/usr/share/fonts/X11/encodings
+IO:close:/var/cache/fontconfig/abefeeb7-743a-4d35-86a7-d025fbd9c96b-le64.cache-7
+IO:close:/usr/share/fonts/X11/misc/.uuid
+IO:close:/usr/share/fonts/X11/misc
+IO:close:/var/cache/fontconfig/d7fbe2fc-4222-4d4d-89a5-1bce80eb9e71-le64.cache-7
+IO:close:/usr/share/fonts/X11/util/.uuid
+IO:close:/usr/share/fonts/X11/util
+IO:close:/var/cache/fontconfig/5aadc363-1db7-492d-9665-f98abc6a16b4-le64.cache-7
+IO:close:/usr/share/poppler/cMap/Adobe-CNS1/.uuid
+IO:close:/usr/share/poppler/cMap/Adobe-CNS1
+IO:close:/var/cache/fontconfig/7740d25f-8a7b-46e4-892e-b835a3e707f6-le64.cache-7
+IO:close:/usr/share/poppler/cMap/Adobe-GB1/.uuid
+IO:close:/usr/share/poppler/cMap/Adobe-GB1
+IO:close:/var/cache/fontconfig/ba95d711-7d44-4825-ac28-ad55fdb7a0d1-le64.cache-7
+IO:close:/usr/share/poppler/cMap/Adobe-Japan1/.uuid
+IO:close:/usr/share/poppler/cMap/Adobe-Japan1
+IO:close:/var/cache/fontconfig/f7a9a0f8-7966-4c45-8f47-aae27c68415e-le64.cache-7
+IO:close:/usr/share/poppler/cMap/Adobe-Japan2/.uuid
+IO:close:/usr/share/poppler/cMap/Adobe-Japan2
+IO:close:/var/cache/fontconfig/e73d14be-a010-4935-8525-eb3e3d682980-le64.cache-7
+IO:close:/usr/share/poppler/cMap/Adobe-Korea1/.uuid
+IO:close:/usr/share/poppler/cMap/Adobe-Korea1
+IO:close:/var/cache/fontconfig/4edcacdb-8d6c-4092-a7cd-a0e6c570ce94-le64.cache-7
+IO:close:/usr/share/fonts/eot/elusive-icons/.uuid
+IO:close:/usr/share/fonts/eot/elusive-icons
+IO:close:/var/cache/fontconfig/ff7c9cf2-7b9e-4aa1-833d-2d479691df64-le64.cache-7
+IO:close:/usr/share/fonts/eot/font-awesome/.uuid
+IO:close:/usr/share/fonts/eot/font-awesome
+IO:close:/var/cache/fontconfig/6f33ddda-3a91-45dd-aaaa-b0effcfcd479-le64.cache-7
+IO:close:/usr/share/fonts/opentype/artemisia/.uuid
+IO:close:/usr/share/fonts/opentype/artemisia
+IO:close:/var/cache/fontconfig/f5738c4f-0dce-4f4c-9ffa-d58f53a75da0-le64.cache-7
+IO:close:/usr/share/fonts/opentype/asana-math/.uuid
+IO:close:/usr/share/fonts/opentype/asana-math
+IO:close:/var/cache/fontconfig/6d5f55e7-51f0-419d-a63a-5604f5192c35-le64.cache-7
+IO:close:/usr/share/fonts/opentype/bodoni-classic/.uuid
+IO:close:/usr/share/fonts/opentype/bodoni-classic
+IO:close:/var/cache/fontconfig/5773d025-f12c-4fe6-b64f-7125ee4430cb-le64.cache-7
+IO:close:/usr/share/fonts/opentype/cabin/.uuid
+IO:close:/usr/share/fonts/opentype/cabin
+IO:close:/var/cache/fontconfig/8abffe51-3c4a-462f-b99d-391fa8326bb4-le64.cache-7
+IO:close:/usr/share/fonts/opentype/cantarell/.uuid
+IO:close:/usr/share/fonts/opentype/cantarell
+IO:close:/var/cache/fontconfig/ef13060f-9906-484f-b4cf-7f73cae23da0-le64.cache-7
+IO:close:/usr/share/fonts/opentype/complutum/.uuid
+IO:close:/usr/share/fonts/opentype/complutum
+IO:close:/var/cache/fontconfig/9fcef174-515d-46d2-9f25-17e03cc89a85-le64.cache-7
+IO:close:/usr/share/fonts/opentype/didot/.uuid
+IO:close:/usr/share/fonts/opentype/didot
+IO:close:/var/cache/fontconfig/927b4183-3575-4674-8ea8-29ce44e9cff1-le64.cache-7
+IO:close:/usr/share/fonts/opentype/didot-classic/.uuid
+IO:close:/usr/share/fonts/opentype/didot-classic
+IO:close:/var/cache/fontconfig/ae9ba9a0-e4f0-46ff-9b9a-b3356298981a-le64.cache-7
+IO:close:/usr/share/fonts/opentype/ebgaramond/.uuid
+IO:close:/usr/share/fonts/opentype/ebgaramond
+IO:close:/var/cache/fontconfig/0ddc8452-77f4-4400-8c01-5c743d748968-le64.cache-7
+IO:close:/usr/share/fonts/opentype/font-awesome/.uuid
+IO:close:/usr/share/fonts/opentype/font-awesome
+IO:close:/var/cache/fontconfig/e6826bdd-f289-4d35-9b50-bacd9f941fad-le64.cache-7
+IO:close:/usr/share/fonts/opentype/fonts-hosny-amiri/.uuid
+IO:close:/usr/share/fonts/opentype/fonts-hosny-amiri
+IO:close:/var/cache/fontconfig/61c76170-3f09-422d-9ead-aee2c5d371d2-le64.cache-7
+IO:close:/usr/share/fonts/opentype/freefont/.uuid
+IO:close:/usr/share/fonts/opentype/freefont
+IO:close:/var/cache/fontconfig/598d95db-a3b7-4b81-8e70-5caef39badf9-le64.cache-7
+IO:close:/usr/share/fonts/opentype/gazis/.uuid
+IO:close:/usr/share/fonts/opentype/gazis
+IO:close:/var/cache/fontconfig/5039116b-42d6-4a61-95fe-e636cea888ed-le64.cache-7
+IO:close:/usr/share/fonts/opentype/gentiumplus/.uuid
+IO:close:/usr/share/fonts/opentype/gentiumplus
+IO:close:/var/cache/fontconfig/e92339f5-5c47-4459-b002-cca5d1398a19-le64.cache-7
+IO:close:/usr/share/fonts/opentype/ipaexfont-gothic/.uuid
+IO:close:/usr/share/fonts/opentype/ipaexfont-gothic
+IO:close:/var/cache/fontconfig/36436ecf-9752-403a-a5f5-320466a3eb2b-le64.cache-7
+IO:close:/usr/share/fonts/opentype/ipaexfont-mincho/.uuid
+IO:close:/usr/share/fonts/opentype/ipaexfont-mincho
+IO:close:/var/cache/fontconfig/92267950-f934-4b72-a2fb-21f03bc6f08e-le64.cache-7
+IO:close:/usr/share/fonts/opentype/ipafont-gothic/.uuid
+IO:close:/usr/share/fonts/opentype/ipafont-gothic
+IO:close:/var/cache/fontconfig/871078e4-1343-485c-8bcc-a336cb3ba144-le64.cache-7
+IO:close:/usr/share/fonts/opentype/ipafont-mincho/.uuid
+IO:close:/usr/share/fonts/opentype/ipafont-mincho
+IO:close:/var/cache/fontconfig/858552d5-1b6a-4faf-8984-ce02ca743899-le64.cache-7
+IO:close:/usr/share/fonts/opentype/linux-libertine/.uuid
+IO:close:/usr/share/fonts/opentype/linux-libertine
+IO:close:/var/cache/fontconfig/58c5c91f-c255-46a6-b1b4-a396d95fe27a-le64.cache-7
+IO:close:/usr/share/fonts/opentype/lobster/.uuid
+IO:close:/usr/share/fonts/opentype/lobster
+IO:close:/var/cache/fontconfig/c478b2d9-4cfa-470a-b745-100f153adc9e-le64.cache-7
+IO:close:/usr/share/fonts/opentype/lobstertwo/.uuid
+IO:close:/usr/share/fonts/opentype/lobstertwo
+IO:close:/var/cache/fontconfig/dd085240-53b4-40a8-bb6c-31fb323b16a5-le64.cache-7
+IO:close:/usr/share/fonts/opentype/malayalam/.uuid
+IO:close:/usr/share/fonts/opentype/malayalam
+IO:close:/var/cache/fontconfig/d3e0775c-5885-43ef-954c-f43d83a7b7b9-le64.cache-7
+IO:close:/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/.uuid
+IO:close:/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf
+IO:close:/var/cache/fontconfig/fcd22950-379c-41c7-9ee2-680c7c12cc51-le64.cache-7
+IO:close:/usr/share/fonts/opentype/neohellenic/.uuid
+IO:close:/usr/share/fonts/opentype/neohellenic
+IO:close:/var/cache/fontconfig/3036a958-66e9-4358-b9b4-846ea80af821-le64.cache-7
+IO:close:/usr/share/fonts/opentype/noto/.uuid
+IO:close:/usr/share/fonts/opentype/noto
+IO:close:/var/cache/fontconfig/b7b16aa1-fe41-4fd0-9bb0-345ef107509a-le64.cache-7
+IO:close:/usr/share/fonts/opentype/olga/.uuid
+IO:close:/usr/share/fonts/opentype/olga
+IO:close:/var/cache/fontconfig/a583020b-bfc5-43b0-880f-b68c7d6a3958-le64.cache-7
+IO:close:/usr/share/fonts/opentype/porson/.uuid
+IO:close:/usr/share/fonts/opentype/porson
+IO:close:/var/cache/fontconfig/d48ee600-161f-4c97-9509-336ccb1d1a5b-le64.cache-7
+IO:close:/usr/share/fonts/opentype/solomos/.uuid
+IO:close:/usr/share/fonts/opentype/solomos
+IO:close:/var/cache/fontconfig/8968ee9d-d2a1-4a73-bd40-1f8c69c2781f-le64.cache-7
+IO:close:/usr/share/fonts/opentype/stix/.uuid
+IO:close:/usr/share/fonts/opentype/stix
+IO:close:/var/cache/fontconfig/9239ffd5-47ed-47b7-8509-a3bffedb9dfd-le64.cache-7
+IO:close:/usr/share/fonts/opentype/stix-word/.uuid
+IO:close:/usr/share/fonts/opentype/stix-word
+IO:close:/var/cache/fontconfig/722ccb51-f750-4fac-bc48-73920dfd8afb-le64.cache-7
+IO:close:/usr/share/fonts/opentype/terminus/.uuid
+IO:close:/usr/share/fonts/opentype/terminus
+IO:close:/var/cache/fontconfig/14231bd5-1434-48c6-9d33-52c2e0caf2d9-le64.cache-7
+IO:close:/usr/share/fonts/opentype/theokritos/.uuid
+IO:close:/usr/share/fonts/opentype/theokritos
+IO:close:/var/cache/fontconfig/5331470f-a33a-4b1c-991d-5161b282031b-le64.cache-7
+IO:close:/usr/share/fonts/opentype/tlwg/.uuid
+IO:close:/usr/share/fonts/opentype/tlwg
+IO:close:/var/cache/fontconfig/defe3d0c-cdd3-405f-bffe-18d659319081-le64.cache-7
+IO:close:/usr/share/fonts/opentype/urw-base35/.uuid
+IO:close:/usr/share/fonts/opentype/urw-base35
+IO:close:/var/cache/fontconfig/25411acd-ca5a-4ca2-9495-5415c77d8315-le64.cache-7
+IO:close:/usr/share/fonts/svg/elusive-icons/.uuid
+IO:close:/usr/share/fonts/svg/elusive-icons
+IO:close:/var/cache/fontconfig/1a7692e3-b714-4bf9-8493-944fe2f9588d-le64.cache-7
+IO:close:/usr/share/fonts/svg/font-awesome/.uuid
+IO:close:/usr/share/fonts/svg/font-awesome
+IO:close:/var/cache/fontconfig/bd8b0c50-d576-4fa0-aaff-4594ba9fc910-le64.cache-7
+IO:close:/usr/share/fonts/truetype/Gargi/.uuid
+IO:close:/usr/share/fonts/truetype/Gargi
+IO:close:/var/cache/fontconfig/f866e63f-8189-48bc-887d-6fa52ac5a236-le64.cache-7
+IO:close:/usr/share/fonts/truetype/Gubbi/.uuid
+IO:close:/usr/share/fonts/truetype/Gubbi
+IO:close:/var/cache/fontconfig/dc675d82-6516-4b7e-955c-ce62b36d6bec-le64.cache-7
+IO:close:/usr/share/fonts/truetype/Nakula/.uuid
+IO:close:/usr/share/fonts/truetype/Nakula
+IO:close:/var/cache/fontconfig/26afc722-8a02-4187-86e6-18babec98a43-le64.cache-7
+IO:close:/usr/share/fonts/truetype/Navilu/.uuid
+IO:close:/usr/share/fonts/truetype/Navilu
+IO:close:/var/cache/fontconfig/0b7b81ff-cd8a-4c28-a85c-a7bed4b65b2e-le64.cache-7
+IO:close:/usr/share/fonts/truetype/Sahadeva/.uuid
+IO:close:/usr/share/fonts/truetype/Sahadeva
+IO:close:/var/cache/fontconfig/4615c597-4b6a-4d98-a018-102219e93b0f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/abyssinica/.uuid
+IO:close:/usr/share/fonts/truetype/abyssinica
+IO:close:/var/cache/fontconfig/7a47c2a3-ef50-44f2-ba6a-93765ea8a139-le64.cache-7
+IO:close:/usr/share/fonts/truetype/adf/.uuid
+IO:close:/usr/share/fonts/truetype/adf
+IO:close:/var/cache/fontconfig/7a4ae15e-8ef5-40f9-ad36-f90813635d0f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/ancient-scripts/.uuid
+IO:close:/usr/share/fonts/truetype/ancient-scripts
+IO:close:/var/cache/fontconfig/b44c1ee2-36c6-4216-8859-82fceacb15e5-le64.cache-7
+IO:close:/usr/share/fonts/truetype/andika/.uuid
+IO:close:/usr/share/fonts/truetype/andika
+IO:close:/var/cache/fontconfig/9f982ad3-e3e0-44ff-993a-b2d9eae684b2-le64.cache-7
+IO:close:/usr/share/fonts/truetype/arphic/.uuid
+IO:close:/usr/share/fonts/truetype/arphic
+IO:close:/var/cache/fontconfig/c61d21b4-4b02-4710-9c3e-d683155a49a0-le64.cache-7
+IO:close:/usr/share/fonts/truetype/arphic-bkai00mp/.uuid
+IO:close:/usr/share/fonts/truetype/arphic-bkai00mp
+IO:close:/var/cache/fontconfig/35a76864-ecc5-4f47-be16-052a2911ff01-le64.cache-7
+IO:close:/usr/share/fonts/truetype/arphic-bsmi00lp/.uuid
+IO:close:/usr/share/fonts/truetype/arphic-bsmi00lp
+IO:close:/var/cache/fontconfig/45b7406e-4a6c-471c-9490-28f0811194dd-le64.cache-7
+IO:close:/usr/share/fonts/truetype/arphic-gbsn00lp/.uuid
+IO:close:/usr/share/fonts/truetype/arphic-gbsn00lp
+IO:close:/var/cache/fontconfig/cffcf697-e571-444b-84d7-1ebecd7f1599-le64.cache-7
+IO:close:/usr/share/fonts/truetype/arphic-gkai00mp/.uuid
+IO:close:/usr/share/fonts/truetype/arphic-gkai00mp
+IO:close:/var/cache/fontconfig/1c03b75f-60c4-418c-b485-83a58d8cd217-le64.cache-7
+IO:close:/usr/share/fonts/truetype/artemisia/.uuid
+IO:close:/usr/share/fonts/truetype/artemisia
+IO:close:/var/cache/fontconfig/7c8208f5-43e0-4d02-8a95-5c59a01901da-le64.cache-7
+IO:close:/usr/share/fonts/truetype/asana-math/.uuid
+IO:close:/usr/share/fonts/truetype/asana-math
+IO:close:/var/cache/fontconfig/0c92007d-550c-4ef4-a022-c5172696c6a1-le64.cache-7
+IO:close:/usr/share/fonts/truetype/baekmuk/.uuid
+IO:close:/usr/share/fonts/truetype/baekmuk
+IO:close:/var/cache/fontconfig/20ce085b-016c-4e81-89d9-75355b0291e1-le64.cache-7
+IO:close:/usr/share/fonts/truetype/baskerville/.uuid
+IO:close:/usr/share/fonts/truetype/baskerville
+IO:close:/var/cache/fontconfig/b2f815b3-5432-4170-942f-f47b270fb3a4-le64.cache-7
+IO:close:/usr/share/fonts/truetype/bodoni-classic/.uuid
+IO:close:/usr/share/fonts/truetype/bodoni-classic
+IO:close:/var/cache/fontconfig/88fc8226-c7f7-470b-b454-e83c9d3559c6-le64.cache-7
+IO:close:/usr/share/fonts/truetype/charis/.uuid
+IO:close:/usr/share/fonts/truetype/charis
+IO:close:/var/cache/fontconfig/756bf7ea-4c63-4b98-8605-bb8a83705dcf-le64.cache-7
+IO:close:/usr/share/fonts/truetype/comfortaa/.uuid
+IO:close:/usr/share/fonts/truetype/comfortaa
+IO:close:/var/cache/fontconfig/fe623f86-8ea5-4e00-9f18-09475a922f43-le64.cache-7
+IO:close:/usr/share/fonts/truetype/complutum/.uuid
+IO:close:/usr/share/fonts/truetype/complutum
+IO:close:/var/cache/fontconfig/9a5326f9-c5e2-4006-b48a-55097e4d686e-le64.cache-7
+IO:close:/usr/share/fonts/truetype/croscore/.uuid
+IO:close:/usr/share/fonts/truetype/croscore
+IO:close:/var/cache/fontconfig/8e2449b9-1056-4425-9b13-7601115d23b0-le64.cache-7
+IO:close:/usr/share/fonts/truetype/crosextra/.uuid
+IO:close:/usr/share/fonts/truetype/crosextra
+IO:close:/var/cache/fontconfig/d51a1fa8-e94b-4ec6-a1d3-df14752e634b-le64.cache-7
+IO:close:/usr/share/fonts/truetype/dejavu/.uuid
+IO:close:/usr/share/fonts/truetype/dejavu
+IO:close:/var/cache/fontconfig/5bf6bf2a-bc27-4d47-b142-93e188452be8-le64.cache-7
+IO:close:/usr/share/fonts/truetype/didot/.uuid
+IO:close:/usr/share/fonts/truetype/didot
+IO:close:/var/cache/fontconfig/11d03973-4de4-45fd-89bd-1b62cf3d2257-le64.cache-7
+IO:close:/usr/share/fonts/truetype/didot-classic/.uuid
+IO:close:/usr/share/fonts/truetype/didot-classic
+IO:close:/var/cache/fontconfig/ad37268d-e68e-402d-973a-2c74336afa02-le64.cache-7
+IO:close:/usr/share/fonts/truetype/droid/.uuid
+IO:close:/usr/share/fonts/truetype/droid
+IO:close:/var/cache/fontconfig/e4a00424-7a26-4d0a-a8e3-4c7a17ea8368-le64.cache-7
+IO:close:/usr/share/fonts/truetype/ebgaramond/.uuid
+IO:close:/usr/share/fonts/truetype/ebgaramond
+IO:close:/var/cache/fontconfig/f84c47e5-ddc6-4568-816c-e8a8355fef1f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/elusive-icons/.uuid
+IO:close:/usr/share/fonts/truetype/elusive-icons
+IO:close:/var/cache/fontconfig/1eaf3c53-4a57-4565-8646-fe47fcc72a5d-le64.cache-7
+IO:close:/usr/share/fonts/truetype/font-awesome/.uuid
+IO:close:/usr/share/fonts/truetype/font-awesome
+IO:close:/var/cache/fontconfig/fa72ab0d-1516-4a77-9f1c-f432730214b7-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-beng-extra/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-beng-extra
+IO:close:/var/cache/fontconfig/f8f990f3-c651-4a75-946e-1e70cde4990a-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-deva-extra/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-deva-extra
+IO:close:/var/cache/fontconfig/d015d3b4-3e8b-4ede-b7c2-cd1029abdb7e-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-gujr-extra/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-gujr-extra
+IO:close:/var/cache/fontconfig/0a88af29-ff6d-42c3-9944-d782d4be50dd-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-guru-extra/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-guru-extra
+IO:close:/var/cache/fontconfig/ab03befe-ea92-4a83-9c71-45f33c805966-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-kalapi/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-kalapi
+IO:close:/var/cache/fontconfig/80d0b4a1-c404-47c3-9a09-8831f2b2d20d-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-orya-extra/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-orya-extra
+IO:close:/var/cache/fontconfig/1becc74a-2802-455f-bbe2-a358a155b91b-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-telu-extra/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-telu-extra
+IO:close:/var/cache/fontconfig/0478f133-8f4a-4b36-bab8-82fd9fa5835f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/fonts-yrsa-rasa/.uuid
+IO:close:/usr/share/fonts/truetype/fonts-yrsa-rasa
+IO:close:/var/cache/fontconfig/87f3a55c-1d3c-4125-94d1-7952c8c01571-le64.cache-7
+IO:close:/usr/share/fonts/truetype/freefont/.uuid
+IO:close:/usr/share/fonts/truetype/freefont
+IO:close:/var/cache/fontconfig/94e1097f-21f7-4ba1-bf95-bdb853e3e96c-le64.cache-7
+IO:close:/usr/share/fonts/truetype/gazis/.uuid
+IO:close:/usr/share/fonts/truetype/gazis
+IO:close:/var/cache/fontconfig/54d25991-d3c5-4c57-a5c2-64a83d2a12a8-le64.cache-7
+IO:close:/usr/share/fonts/truetype/gentium/.uuid
+IO:close:/usr/share/fonts/truetype/gentium
+IO:close:/var/cache/fontconfig/c1e560db-a232-4f14-bd32-c3681e601cd6-le64.cache-7
+IO:close:/usr/share/fonts/truetype/gentium-basic/.uuid
+IO:close:/usr/share/fonts/truetype/gentium-basic
+IO:close:/var/cache/fontconfig/fdd5b07f-894d-44e5-95d5-4e2e52dc2a73-le64.cache-7
+IO:close:/usr/share/fonts/truetype/gentiumplus/.uuid
+IO:close:/usr/share/fonts/truetype/gentiumplus
+IO:close:/var/cache/fontconfig/28826294-aab3-4288-ad51-fd3f30184910-le64.cache-7
+IO:close:/usr/share/fonts/truetype/gentiumplus-compact/.uuid
+IO:close:/usr/share/fonts/truetype/gentiumplus-compact
+IO:close:/var/cache/fontconfig/7865c3d4-41b8-4392-a3de-f54b736a5bf6-le64.cache-7
+IO:close:/usr/share/fonts/truetype/glyphicons/.uuid
+IO:close:/usr/share/fonts/truetype/glyphicons
+IO:close:/var/cache/fontconfig/29612f3d-700f-401b-a3d0-984fcaeda692-le64.cache-7
+IO:close:/usr/share/fonts/truetype/hack/.uuid
+IO:close:/usr/share/fonts/truetype/hack
+IO:close:/var/cache/fontconfig/cb1e7017-2755-493e-b925-c0995022fb58-le64.cache-7
+IO:close:/usr/share/fonts/truetype/junicode/.uuid
+IO:close:/usr/share/fonts/truetype/junicode
+IO:close:/var/cache/fontconfig/249fef5f-6afb-4c7c-8929-2e8707bec7e0-le64.cache-7
+IO:close:/usr/share/fonts/truetype/kacst/.uuid
+IO:close:/usr/share/fonts/truetype/kacst
+IO:close:/var/cache/fontconfig/ea8c3a4f-1303-4137-8401-b8d1ac536405-le64.cache-7
+IO:close:/usr/share/fonts/truetype/kacst-one/.uuid
+IO:close:/usr/share/fonts/truetype/kacst-one
+IO:close:/var/cache/fontconfig/ac8a8690-aef0-4dbc-bd93-eb9ff50130be-le64.cache-7
+IO:close:/usr/share/fonts/truetype/katex/.uuid
+IO:close:/usr/share/fonts/truetype/katex
+IO:close:/var/cache/fontconfig/5c784f29-edc9-4e63-b756-7102bcf05aab-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lao/.uuid
+IO:close:/usr/share/fonts/truetype/lao
+IO:close:/var/cache/fontconfig/bc0ee367-90a6-4d4c-8c02-c40112f1331a-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lato/.uuid
+IO:close:/usr/share/fonts/truetype/lato
+IO:close:/var/cache/fontconfig/59e8eb4e-3e3f-41ef-8df3-350c2f5a1351-le64.cache-7
+IO:close:/usr/share/fonts/truetype/liberation/.uuid
+IO:close:/usr/share/fonts/truetype/liberation
+IO:close:/var/cache/fontconfig/293507c9-c7e3-4075-80b6-eb4672dfaf30-le64.cache-7
+IO:close:/usr/share/fonts/truetype/liberation2/.uuid
+IO:close:/usr/share/fonts/truetype/liberation2
+IO:close:/var/cache/fontconfig/83cc2c61-dd09-4e40-af6d-092827131a8d-le64.cache-7
+IO:close:/usr/share/fonts/truetype/libreoffice/.uuid
+IO:close:/usr/share/fonts/truetype/libreoffice
+IO:close:/var/cache/fontconfig/25e425c5-159a-4294-8255-e2101465b445-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-assamese/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-assamese
+IO:close:/var/cache/fontconfig/b694d9b7-8070-4e01-aa81-49bfc1076bd6-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-bengali/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-bengali
+IO:close:/var/cache/fontconfig/3a022007-a6b9-47fb-b0be-8d1c2061047a-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-devanagari/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-devanagari
+IO:close:/var/cache/fontconfig/47a0933e-d9c5-4504-acc4-d91b9d229487-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-gujarati/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-gujarati
+IO:close:/var/cache/fontconfig/c4eeb029-2fb9-47be-b568-30a861a2a654-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-kannada/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-kannada
+IO:close:/var/cache/fontconfig/eca08b1d-6fc9-495f-9f79-8d44ffbd5868-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-malayalam/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-malayalam
+IO:close:/var/cache/fontconfig/665b5cd5-2e7d-40ad-9197-17c37a052572-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-oriya/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-oriya
+IO:close:/var/cache/fontconfig/4814aa49-b6f2-4496-ba1c-aa89db4b3c12-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-punjabi/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-punjabi
+IO:close:/var/cache/fontconfig/683f16b3-490c-45e8-8302-5d7c6404c934-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-tamil/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-tamil
+IO:close:/var/cache/fontconfig/56df9472-e4f0-4790-b573-988e3bd143e4-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-tamil-classical/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-tamil-classical
+IO:close:/var/cache/fontconfig/c1297079-f369-404d-ae63-0e22f2a9e0cb-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lohit-telugu/.uuid
+IO:close:/usr/share/fonts/truetype/lohit-telugu
+IO:close:/var/cache/fontconfig/2d985d33-d4fc-4c0e-9d20-914cb60282ca-le64.cache-7
+IO:close:/usr/share/fonts/truetype/lyx/.uuid
+IO:close:/usr/share/fonts/truetype/lyx
+IO:close:/var/cache/fontconfig/e8c2c427-77f2-43e7-808f-07f0e769610a-le64.cache-7
+IO:close:/usr/share/fonts/truetype/malayalam/.uuid
+IO:close:/usr/share/fonts/truetype/malayalam
+IO:close:/var/cache/fontconfig/973d5388-a737-4e8b-a491-18c913092bdd-le64.cache-7
+IO:close:/usr/share/fonts/truetype/nanum/.uuid
+IO:close:/usr/share/fonts/truetype/nanum
+IO:close:/var/cache/fontconfig/911f6c42-9cd9-4075-8366-28fc2f910aea-le64.cache-7
+IO:close:/usr/share/fonts/truetype/neohellenic/.uuid
+IO:close:/usr/share/fonts/truetype/neohellenic
+IO:close:/var/cache/fontconfig/4e2f2cfe-1d82-4565-bcc3-5461f9b47d0f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/noto/.uuid
+IO:close:/usr/share/fonts/truetype/noto
+IO:close:/var/cache/fontconfig/118c6bfa-fa58-4314-ab60-b209992362e5-le64.cache-7
+IO:close:/usr/share/fonts/truetype/olga/.uuid
+IO:close:/usr/share/fonts/truetype/olga
+IO:close:/var/cache/fontconfig/fdad19db-8873-482c-8e1a-9c1ef6fcc195-le64.cache-7
+IO:close:/usr/share/fonts/truetype/open-sans/.uuid
+IO:close:/usr/share/fonts/truetype/open-sans
+IO:close:/var/cache/fontconfig/c7761cfa-e5ca-456c-81c5-5c98b33a5166-le64.cache-7
+IO:close:/usr/share/fonts/truetype/openoffice/.uuid
+IO:close:/usr/share/fonts/truetype/openoffice
+IO:close:/var/cache/fontconfig/5ec9e50e-ed9f-4346-9019-f54868e5293d-le64.cache-7
+IO:close:/usr/share/fonts/truetype/padauk/.uuid
+IO:close:/usr/share/fonts/truetype/padauk
+IO:close:/var/cache/fontconfig/c6fa23ff-ffac-4394-83e2-e1b56603b7cd-le64.cache-7
+IO:close:/usr/share/fonts/truetype/pagul/.uuid
+IO:close:/usr/share/fonts/truetype/pagul
+IO:close:/var/cache/fontconfig/3d31c5c3-fc1d-49d7-ba20-286d52db9f4f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/porson/.uuid
+IO:close:/usr/share/fonts/truetype/porson
+IO:close:/var/cache/fontconfig/f3e75f3e-06fb-417b-91f0-60a17208f6d9-le64.cache-7
+IO:close:/usr/share/fonts/truetype/povray/.uuid
+IO:close:/usr/share/fonts/truetype/povray
+IO:close:/var/cache/fontconfig/36393438-241c-4b4d-b7a0-d3eff4be4790-le64.cache-7
+IO:close:/usr/share/fonts/truetype/roboto/.uuid
+IO:close:/usr/share/fonts/truetype/roboto
+IO:close:/var/cache/fontconfig/5388da61-214f-48b9-bc22-bff88f83481c-le64.cache-7
+IO:close:/usr/share/fonts/truetype/samyak/.uuid
+IO:close:/usr/share/fonts/truetype/samyak
+IO:close:/var/cache/fontconfig/cf21e2ff-a97b-4a4b-b9e0-c12b7ecd7b60-le64.cache-7
+IO:close:/usr/share/fonts/truetype/samyak-fonts/.uuid
+IO:close:/usr/share/fonts/truetype/samyak-fonts
+IO:close:/var/cache/fontconfig/0f314211-085b-43f0-87c4-7df5c41f4edc-le64.cache-7
+IO:close:/usr/share/fonts/truetype/sinhala/.uuid
+IO:close:/usr/share/fonts/truetype/sinhala
+IO:close:/var/cache/fontconfig/b60878f1-43da-40a3-978c-0e613cf52c0e-le64.cache-7
+IO:close:/usr/share/fonts/truetype/solomos/.uuid
+IO:close:/usr/share/fonts/truetype/solomos
+IO:close:/var/cache/fontconfig/bde78fb3-3bcc-41eb-872f-2b2dd48ffa78-le64.cache-7
+IO:close:/usr/share/fonts/truetype/takao-gothic/.uuid
+IO:close:/usr/share/fonts/truetype/takao-gothic
+IO:close:/var/cache/fontconfig/a61ae079-e450-4942-800a-f1f058be28fd-le64.cache-7
+IO:close:/usr/share/fonts/truetype/teluguvijayam/.uuid
+IO:close:/usr/share/fonts/truetype/teluguvijayam
+IO:close:/var/cache/fontconfig/8642c048-4c91-4eda-839c-b4f5b6fea583-le64.cache-7
+IO:close:/usr/share/fonts/truetype/theokritos/.uuid
+IO:close:/usr/share/fonts/truetype/theokritos
+IO:close:/var/cache/fontconfig/ce927ae6-51c5-4031-88f7-988e323d9bbe-le64.cache-7
+IO:close:/usr/share/fonts/truetype/tibetan-machine/.uuid
+IO:close:/usr/share/fonts/truetype/tibetan-machine
+IO:close:/var/cache/fontconfig/39b9ed74-f664-43aa-ab37-6e2b068dfcdd-le64.cache-7
+IO:close:/usr/share/fonts/truetype/tlwg/.uuid
+IO:close:/usr/share/fonts/truetype/tlwg
+IO:close:/var/cache/fontconfig/2dc084b1-bce8-41bb-b957-0f7a17ebf7a2-le64.cache-7
+IO:close:/usr/share/fonts/truetype/ttf-bitstream-vera/.uuid
+IO:close:/usr/share/fonts/truetype/ttf-bitstream-vera
+IO:close:/var/cache/fontconfig/973aecb6-7f55-4e08-a12c-a4730eedc441-le64.cache-7
+IO:close:/usr/share/fonts/truetype/ttf-khmeros-core/.uuid
+IO:close:/usr/share/fonts/truetype/ttf-khmeros-core
+IO:close:/var/cache/fontconfig/cb7d98e5-053c-4d7d-9654-60e602446d16-le64.cache-7
+IO:close:/usr/share/fonts/truetype/ubuntu/.uuid
+IO:close:/usr/share/fonts/truetype/ubuntu
+IO:close:/var/cache/fontconfig/919736a4-2b9e-4581-b6c9-ea1a4d1e170f-le64.cache-7
+IO:close:/usr/share/fonts/truetype/unfonts-core/.uuid
+IO:close:/usr/share/fonts/truetype/unfonts-core
+IO:close:/var/cache/fontconfig/6a528acd-590b-406b-b332-01caa513da2b-le64.cache-7
+IO:close:/usr/share/fonts/truetype/unfonts-extra/.uuid
+IO:close:/usr/share/fonts/truetype/unfonts-extra
+IO:close:/var/cache/fontconfig/d21931e1-aa09-4274-b1a4-acab63bdf3a6-le64.cache-7
+IO:close:/usr/share/fonts/truetype/wqy/.uuid
+IO:close:/usr/share/fonts/truetype/wqy
+IO:close:/var/cache/fontconfig/0eb6a916-e1d2-4def-aea3-81e834bdbedf-le64.cache-7
+IO:close:/usr/share/fonts/type1/gsfonts/.uuid
+IO:close:/usr/share/fonts/type1/gsfonts
+IO:close:/var/cache/fontconfig/d2ab8edb-ce27-4c9a-b76c-af5a56df775e-le64.cache-7
+IO:close:/usr/share/fonts/type1/texlive-fonts-recommended/.uuid
+IO:close:/usr/share/fonts/type1/texlive-fonts-recommended
+IO:close:/var/cache/fontconfig/2ef2041a-75d7-45f3-9dc1-abcc9573c90a-le64.cache-7
+IO:close:/usr/share/fonts/type1/urw-base35/.uuid
+IO:close:/usr/share/fonts/type1/urw-base35
+IO:close:/var/cache/fontconfig/5113ee5a-8ec4-42eb-892d-610dab4fab73-le64.cache-7
+IO:close:/usr/share/fonts/woff/ebgaramond/.uuid
+IO:close:/usr/share/fonts/woff/ebgaramond
+IO:close:/var/cache/fontconfig/08cf88ad-a46f-40e4-85d8-7fb20cf12441-le64.cache-7
+IO:close:/usr/share/fonts/woff/elusive-icons/.uuid
+IO:close:/usr/share/fonts/woff/elusive-icons
+IO:close:/var/cache/fontconfig/06c6c3a4-af2f-405b-a81c-4a69fd394bcc-le64.cache-7
+IO:close:/usr/share/fonts/woff/font-awesome/.uuid
+IO:close:/usr/share/fonts/woff/font-awesome
+IO:close:/var/cache/fontconfig/55561b52-7e7a-4bd4-9930-9941261e69c7-le64.cache-7
+IO:close:/usr/share/fonts/X11/encodings/large/.uuid
+IO:close:/usr/share/fonts/X11/encodings/large
+IO:close:/var/cache/fontconfig/3a13fe64-d22c-4eb3-807f-1409f6534f42-le64.cache-7
+IO:close:/usr/share/fonts/truetype/roboto/hinted/.uuid
+IO:close:/usr/share/fonts/truetype/roboto/hinted
+IO:close:/var/cache/fontconfig/7301a6fa-fba6-4c8a-b830-aa1b9ff563a6-le64.cache-7
+IO:close:/usr/share/fonts/truetype/roboto/unhinted/.uuid
+IO:close:/usr/share/fonts/truetype/roboto/unhinted
+IO:close:/var/cache/fontconfig/0fa30de3-9012-4641-9229-80bc6d1298bf-le64.cache-7
+IO:close:/usr/share/fonts/truetype/roboto/unhinted/RobotoTTF/.uuid
+IO:close:/usr/share/fonts/truetype/roboto/unhinted/RobotoTTF
+IO:close:/var/cache/fontconfig/5c0e1a36-243d-4b26-b10c-3a18c86b8827-le64.cache-7
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.icons/default/cursors/col-resize
+IO:fopen:r
+IO:open:/home/mario/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/col-resize
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:close:/usr/share/icons/Bibata-Modern-Classic/cursor.theme
+IO:open:/usr/share/pixmaps/default/cursors/col-resize
+IO:fopen:r
+IO:open:/home/mario/.icons/Bibata-Modern-Classic/cursors/col-resize
+IO:fopen:r
+IO:open:/home/mario/.icons/Bibata-Modern-Classic/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/Bibata-Modern-Classic/cursors/col-resize
+IO:fopen:r
+IO:close:/usr/share/icons/Bibata-Modern-Classic/cursors/sb_h_double_arrow
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+IO:open:/home/mario/.Xdefaults
+IO:open:0xB
+IO:open:/home/mario/.Xdefaults-Nimmermehr
+IO:open:0x72656D6D
+* wrapping PANGO
+PANGO:W
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open:0x0
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open:0x50
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:H
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:H
+PANGO:M
+PANGO:Z 762000
+PANGO:X 1234.1234  Y 1234.1234
+PANGO:dx 1234.1234  dy 1234.1234  dist 1234.1234
+PANGO:grid X 1234.1234  Y 1234.1234
+PANGO:Zoll
+PANGO:Add layer alignment target
+PANGO:Auf H, V, 45° beschränken
+PANGO:W
+GTK:Window Title:
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+IO:close:/etc/passwd
+IO:open:/home/mario/.cache/mesa_shader_cache/index
+IO:open64:0x1A4
+IO:close:/home/mario/.cache/mesa_shader_cache/index
+IO:open:/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules.cache
+IO:fopen:r
+IO:close:/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules.cache
+IO:open:/var/lib/dbus/machine-id
+IO:open64:0x0
+IO:close:/etc/machine-id
+IO:open:/home/mario/.config/ibus/bus
+IO:open:0x1C0
+IO:close:/home/mario/.config/ibus/bus
+IO:open:/home/mario/.config/ibus/bus/ef635a010d284bc38d762d2b9f0e65ac-unix-596695725
+IO:fopen:r
+IO:open:/home/mario/.cache/gtk-3.0/compose/b802926f.cache
+IO:open64:0xBBFFE5C0
+IO:close:/home/mario/.cache/gtk-3.0/compose/b802926f.cache
+GTK:Window Show:
+IO:open:/home/mario/.cache/mesa_shader_cache/92/c3936d1c2bf0df358372d317e439deebebe65a
+IO:open64:0xE6BE8B18
+IO:close:/home/mario/.cache/mesa_shader_cache/92/c3936d1c2bf0df358372d317e439deebebe65a
+* wrapping widget destroy
+GTK:Window Destroy:
+IO:open:/usr/share/kicad/resources/images.tar.gz
+IO:fopen64:rb
+IO:close:/etc/passwd
+IO:close:/etc/group
+IO:close:/usr/share/kicad/resources/images.tar.gz
+IO:open:/home/mario/.Xauthority
+IO:fopen:rb
+IO:close:/home/mario/.Xauthority
+IO:open:/run/user/1000/ICEauthority
+IO:fopen:rb
+IO:close:/run/user/1000/ICEauthority
+IO:open:/run/user/1000/ICEauthority
+IO:fopen:rb
+IO:close:/run/user/1000/ICEauthority
+IO:open:/run/user/1000/ICEauthority
+IO:fopen:rb
+IO:close:/run/user/1000/ICEauthority
+IO:open:/run/user/1000/ICEauthority
+IO:fopen:rb
+IO:close:/run/user/1000/ICEauthority
+IO:close:socket:[307495]
+IO:close:socket:[307494]
+* wrapping label set text
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Raster: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Raster: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Raster: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Raster: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Raster: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Raster: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:Benutzerdefiniertes Raster: 0.2540 mm (0.0100 in)
+IO:open:/home/mario/.config/kicad/7.0/user.hotkeys
+IO:fopen64:rb
+IO:close:/home/mario/.config/kicad/7.0/user.hotkeys
+IO:open:/usr/lib/python3.10/__pycache__/textwrap.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/textwrap.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/re.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/re.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/enum.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/enum.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/sre_compile.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/sre_compile.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/sre_parse.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/sre_parse.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/sre_constants.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/sre_constants.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/copyreg.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/copyreg.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/__init__.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/__init__.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/__version__.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/__version__.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/core.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/core.cpython-310.pyc
+IO:open:/usr/lib/python3.10/__pycache__/datetime.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.10/__pycache__/datetime.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/adv.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/adv.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/html.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/html.cpython-310.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/richtext.cpython-310.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/richtext.cpython-310.pyc
+PANGO:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+GTK:Label Set Text 2:Raster-Eigenschaften...
+PANGO:Stammblatt (Seite 1)
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+IO:open:0x0
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+IO:open:0x50
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+IO:open:/usr/share/icons/Adwaita/index.theme
+IO:open64:0x0
+IO:close:/usr/share/icons/Adwaita/index.theme
+IO:open:/usr/share/locale/locale.alias
+IO:fopen64:r
+IO:close:/etc/locale.alias
+IO:open:/usr/share/icons/Adwaita/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/icons/Adwaita/icon-theme.cache
+IO:open64:0x0
+IO:close:/usr/share/icons/Adwaita/icon-theme.cache
+IO:close:/usr/share/icons/Adwaita/icon-theme.cache
+IO:open:/var/lib/flatpak/exports/share/icons/hicolor/index.theme
+IO:open64:0x0
+IO:close:/var/lib/flatpak/exports/share/icons/hicolor/index.theme
+IO:open:/usr/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/icons/hicolor/icon-theme.cache
+IO:open64:0x0
+IO:close:/usr/share/icons/hicolor/icon-theme.cache
+IO:close:/usr/share/icons/hicolor/icon-theme.cache
+IO:open:/var/lib/flatpak/exports/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/var/lib/flatpak/exports/share/icons/hicolor/icon-theme.cache
+IO:open64:0x0
+IO:close:/var/lib/flatpak/exports/share/icons/hicolor/icon-theme.cache
+IO:close:/var/lib/flatpak/exports/share/icons/hicolor/icon-theme.cache
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/icons/gnome/index.theme
+IO:open64:0x0
+IO:close:/usr/share/icons/gnome/index.theme
+IO:open:/usr/share/icons/gnome/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/icons/gnome/icon-theme.cache
+IO:open64:0x0
+IO:close:/usr/share/icons/gnome/icon-theme.cache
+IO:close:/usr/share/icons/gnome/icon-theme.cache
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/hicolor/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.local/share/icons/icon-theme.cache
+IO:open:0x0
+IO:open:/home/mario/.icons/icon-theme.cache
+IO:open:0x0
+IO:open:/var/lib/flatpak/exports/share/icons/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/icons/icon-theme.cache
+IO:open:0x0
+IO:open:/var/lib/snapd/desktop/icons/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/pixmaps/icon-theme.cache
+IO:open:0x0
+IO:open:/usr/share/icons/Adwaita/16x16/legacy/window-close.png
+IO:open64:0x0
+IO:open:/home/mario/.local/share/mime//mime.cache
+IO:open64:0x0
+IO:close:/home/mario/.local/share/mime/mime.cache
+IO:open:/usr/share/cinnamon2d/mime//aliases
+IO:fopen64:r
+IO:open:/usr/share/cinnamon2d/mime//subclasses
+IO:fopen64:r
+IO:open:/usr/share/cinnamon2d/mime//icons
+IO:fopen64:r
+IO:open:/usr/share/cinnamon2d/mime//generic-icons
+IO:fopen64:r
+IO:open:/usr/share/gnome/mime//aliases
+IO:fopen64:r
+IO:open:/usr/share/gnome/mime//subclasses
+IO:fopen64:r
+IO:open:/usr/share/gnome/mime//icons
+IO:fopen64:r
+IO:open:/usr/share/gnome/mime//generic-icons
+IO:fopen64:r
+IO:open:/home/mario/.local/share/flatpak/exports/share/mime//aliases
+IO:fopen64:r
+IO:open:/home/mario/.local/share/flatpak/exports/share/mime//subclasses
+IO:fopen64:r
+IO:open:/home/mario/.local/share/flatpak/exports/share/mime//icons
+IO:fopen64:r
+IO:open:/home/mario/.local/share/flatpak/exports/share/mime//generic-icons
+IO:fopen64:r
+IO:open:/var/lib/flatpak/exports/share/mime//mime.cache
+IO:open64:0x0
+IO:close:/var/lib/flatpak/exports/share/mime/mime.cache
+IO:open:/usr/local/share/mime//aliases
+IO:fopen64:r
+IO:open:/usr/local/share/mime//subclasses
+IO:fopen64:r
+IO:open:/usr/local/share/mime//icons
+IO:fopen64:r
+IO:open:/usr/local/share/mime//generic-icons
+IO:fopen64:r
+IO:open:/usr/share/mime//mime.cache
+IO:open64:0x0
+IO:close:/usr/share/mime/mime.cache
+IO:open:/var/lib/snapd/desktop/mime//aliases
+IO:fopen64:r
+IO:open:/var/lib/snapd/desktop/mime//subclasses
+IO:fopen64:r
+IO:open:/var/lib/snapd/desktop/mime//icons
+IO:fopen64:r
+IO:open:/var/lib/snapd/desktop/mime//generic-icons
+IO:fopen64:r
+IO:close:/usr/share/icons/Adwaita/16x16/legacy/window-close.png
+GTK:Window Title:[Kein Schaltplan geladen] — Schaltplaneditor
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+PANGO:The quick brown fox jumps over the lazy dog.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:0123456789
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Schaltplan-Hierarchie
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Stammblatt (Seite 1)
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Z 0.98
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:X 0.0000  Y 0.0000
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Raster 1.2700
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:mm
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Schaltplan-Hierarchie
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Stammblatt (Seite 1)
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Z 0.98
+KiAuto:match

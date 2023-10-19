@@ -276,13 +276,13 @@ outputs:
 # Plots
 ################################################################################
 
-# Schematic Plot (SVG)
-- name: basic_svg_sch_print
-  comment: Schematic in SVG format
-  type: svg_sch_print
-  dir: kibot/doc
-  options:
-    output: 'schematic.%x'
+# # Schematic Plot (SVG)
+# - name: basic_svg_sch_print
+#   comment: Schematic in SVG format
+#   type: svg_sch_print
+#   dir: kibot/doc
+#   options:
+#     output: 'schematic.%x'
 
 # Board Plot Layers (SVG)
 - name: pcb_layer_plot_svg
@@ -292,7 +292,7 @@ outputs:
   options:
     format: SVG
     output: 'pcb-layer-%i.%x'
-    color_theme: 'user'
+    #color_theme: 'user' #'_builtin_classic', '_builtin_default', 'user'
     force_edge_cuts: true
     scaling: 0
     plot_sheet_reference: false
@@ -323,7 +323,7 @@ outputs:
   options:
     format: SVG
     output: 'pcb-%i.%x'
-    color_theme: 'user' #'_builtin_classic', '_builtin_default'
+    #color_theme: 'user' #'_builtin_classic', '_builtin_default'
     force_edge_cuts: true
     scaling: 0
     plot_sheet_reference: false
