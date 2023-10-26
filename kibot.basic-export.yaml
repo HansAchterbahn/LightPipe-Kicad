@@ -293,7 +293,7 @@ outputs:
     format: SVG
     output: 'pcb-layer-%i.%x'
     #color_theme: 'user' #'_builtin_classic', '_builtin_default', 'user'
-    force_edge_cuts: true
+    #force_edge_cuts: true
     scaling: 0
     plot_sheet_reference: false
     keep_temporal_files: false
@@ -303,15 +303,19 @@ outputs:
     pages:
     - layers:
       - layer: F.Cu
+      - layer: Edge.Cuts
       sheet: 'Top'
     - layers:
       - layer: In1.Cu
+      - layer: Edge.Cuts
       sheet: 'In1'
     - layers:
       - layer: In2.Cu
+      - layer: Edge.Cuts
       sheet: 'In2'
     - layers:
       - layer: B.Cu
+      - layer: Edge.Cuts
       sheet: 'Bottom'
 
 
