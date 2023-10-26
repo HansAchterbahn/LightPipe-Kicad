@@ -56,10 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|127000000|75300000|00000000-0000-0000-0000-00006106bb78|00000000-0000-0000-0000-000000000000",
-        "track_dangling|141573442|86237388|d0511be7-c0c4-49c3-8622-602d6687ea82|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -100,7 +97,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -551,7 +548,7 @@
       "idf": "",
       "netlist": "LightPipe.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kibot/3d/model/LightPipe_PCB-3D-Model.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
