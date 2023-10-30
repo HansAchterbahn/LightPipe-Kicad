@@ -29,7 +29,7 @@ __Bottom view__
 
 ## Schematic
 
-![Schematic view](kibot/doc/schematic.svg)
+![Schematic view](kibot/doc/schematic.png)
 
 ## Board
 
