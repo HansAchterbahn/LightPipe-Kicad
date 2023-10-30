@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 30.59x20.11 mm (1.2x0.79 inches)
+Board size: 38.0x38.0 mm (1.5x1.5 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -20,21 +20,21 @@ Silk screen: TOP / BOTTOM
 
 Stackup:
 
-| Name                 | Type                 | Color    | Thickness | Material        | Epsilon_r | Loss tangent |
-|----------------------|----------------------|----------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      |          |           |                 |           |              |
-| F.Paste              | Top Solder Paste     |          |           |                 |           |              |
-| F.Mask               | Top Solder Mask      |          |        10 |                 |           |              |
-| F.Cu                 | copper               |          |        35 |                 |           |              |
-| dielectric 1         | core                 |          |       695 | FR4             |       4.5 |         0.02 |
-| In1.Cu               | copper               |          |        35 |                 |           |              |
-| dielectric 2         | prepreg              |          |        50 | FR4             |       4.5 |         0.02 |
-| In2.Cu               | copper               |          |        35 |                 |           |              |
-| dielectric 3         | core                 |          |       695 | FR4             |       4.5 |         0.02 |
-| B.Cu                 | copper               |          |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   |          |        10 |                 |           |              |
-| B.Paste              | Bottom Solder Paste  |          |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   |          |           |                 |           |              |
+| Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
+|----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      |                  |           |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |           |                 |           |              |
+| F.Mask               | Top Solder Mask      |                  |        10 |                 |           |              |
+| F.Cu                 | copper               |                  |        35 |                 |           |              |
+| dielectric 1         | core                 |                  |       695 | FR4             |       4.5 |        0.020 |
+| In1.Cu               | copper               |                  |        35 |                 |           |              |
+| dielectric 2         | prepreg              |                  |        50 | FR4             |       4.5 |        0.020 |
+| In2.Cu               | copper               |                  |        35 |                 |           |              |
+| dielectric 3         | core                 |                  |       695 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |        35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   |                  |        10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   |                  |           |                 |           |              |
 
 # Important sizes
 
@@ -53,14 +53,16 @@ Drill: 0.3 mm (12 mils)
 Via: 0.6/0.2 mm (24/8 mils)
 
 - By design rules: 0.4/0.2 mm (16/8 mils)
-- Micro via: no [0.2/0.1 mm (8/4 mils)]
-- Burried/blind via: no
+- Micro via: yes [0.2/0.1 mm (8/4 mils)]
+- Buried/blind via: yes
+- Total: 24 (thru: 24 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.15 mm (6 mils)
 
 - By design rules: 0.15 mm (6 mils)
 
 Eurocircuits class: 4D
+- Using min drill 0.3 mm for an OAR of 0.15 mm
 
 
 # General stats
@@ -68,7 +70,7 @@ Eurocircuits class: 4D
 Components count: (SMD/THT)
 
 - Top: 0/3 (THT)
-- Bottom: 3/4 (SMD + THT)
+- Bottom: 3/2 (SMD + THT)
 
 Defined tracks:
 
@@ -111,10 +113,6 @@ Drill tools (including vias and computing adjusts and rounding):
 - 2.2 mm (87 mils) (2)
 - 2.8 mm (110 mils) (2)
 
-
-# Schematic
-
-![Schematic in SVG format](../doc/schematic.svg){ width=16.5cm height=11.7cm }
 
 
 

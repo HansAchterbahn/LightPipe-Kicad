@@ -1,7 +1,7 @@
 PCB Specifications:
 Size:
 
-- 30.59x20.11 mm
+- 38.0x38.0 mm
 
 Class: 4D
 
@@ -18,21 +18,21 @@ Ring collar: >= 0.15 mm
 
 Stackup:
 
-| Name                 | Type                 | Color    | Thickness | Material        | Epsilon_r | Loss tangent |
-|----------------------|----------------------|----------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      |          |           |                 |           |              |
-| F.Paste              | Top Solder Paste     |          |           |                 |           |              |
-| F.Mask               | Top Solder Mask      |          |        10 |                 |           |              |
-| F.Cu                 | copper               |          |        35 |                 |           |              |
-| dielectric 1         | core                 |          |       695 | FR4             |       4.5 |         0.02 |
-| In1.Cu               | copper               |          |        35 |                 |           |              |
-| dielectric 2         | prepreg              |          |        50 | FR4             |       4.5 |         0.02 |
-| In2.Cu               | copper               |          |        35 |                 |           |              |
-| dielectric 3         | core                 |          |       695 | FR4             |       4.5 |         0.02 |
-| B.Cu                 | copper               |          |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   |          |        10 |                 |           |              |
-| B.Paste              | Bottom Solder Paste  |          |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   |          |           |                 |           |              |
+| Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
+|----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      |                  |           |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |           |                 |           |              |
+| F.Mask               | Top Solder Mask      |                  |        10 |                 |           |              |
+| F.Cu                 | copper               |                  |        35 |                 |           |              |
+| dielectric 1         | core                 |                  |       695 | FR4             |       4.5 |        0.020 |
+| In1.Cu               | copper               |                  |        35 |                 |           |              |
+| dielectric 2         | prepreg              |                  |        50 | FR4             |       4.5 |        0.020 |
+| In2.Cu               | copper               |                  |        35 |                 |           |              |
+| dielectric 3         | core                 |                  |       695 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |        35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   |                  |        10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   |                  |           |                 |           |              |
 
 Materials:
 
